@@ -17,7 +17,7 @@ Previously, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sc
 
 Outside of computer science, I enjoy music, figure skating, cooking, and hiking. As my experience with linguistics suggests, my passion for languages extends beyond programming languages: my first language is Mandarin, my French is B1/B2, and my Japanese is terrible but in progress.
 
-<!-- To contact me, please email me at either r6huang [at] ucsd [dot] edu or rlisahuang [at] gmail [dot] com. -->
+To contact me, please email me at r6huang [at] ucsd [dot] edu.
 
 *Pronouns:* she/her/hers
 

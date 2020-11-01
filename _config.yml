@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ruanqianqian (Lisa) Huang"
+  name             : "Ruanqianqian Huang"
   avatar           : "profile.jpg"
-  bio              : "Incoming Ph.D. student @ UCSD"
+  bio              : "1st-year Ph.D. student @ UCSD, studying programming languages and HCI."
   location         : "La Jolla, CA"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=qBtrYu8AAAAJ"
-  email            : "r6huang[at]ucsd[dot]edu"
+  email            : #"r6huang[at]ucsd[dot]edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "rlisahuang"
+  github           : #"rlisahuang"
   google_plus      :
   keybase          :
   instagram        :
