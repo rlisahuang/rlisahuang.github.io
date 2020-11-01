@@ -11,12 +11,11 @@ redirect_from:
 
 I am a first-year Ph.D. student in the Department of Computer Science and Engineering at UC San Diego, affiliated with the [ProgSys Group](http://cseweb.ucsd.edu/groups/progsys/) and advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
 My academic interests lie in the intersection of programming languages and human-computer interaction, include programming language design, error reporting and handling, and human-(programming) language interaction.
-I aspire to implement programming tools that are user-friendly and accessible for not only programmers and professionals but everyone. 
-With better programming tools, I'm eager to make programming and computer science more diverse and inclusive.
+Through programming tools that are user-friendly and accessible, I aspire to lower the boundaries to learning computer science and programming for everyone.
 
 Previously, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from Wellesley College (Wellesley, MA, USA). 
 
-Outside of computer science, I enjoy hiking, reading, cooking, and playing/composing music. As my experience with linguistics suggests, my passion for languages extends beyond programming languages: my first language is Mandarin, my French is B1/B2, my Japanese is terrible but in progress.
+Outside of computer science, I enjoy music, cooking, hiking, and reading. As my experience with linguistics suggests, my passion for languages extends beyond programming languages: my first language is Mandarin, my French is B1/B2, and my Japanese is terrible but in progress.
 
 <!-- To contact me, please email me at either r6huang [at] ucsd [dot] edu or rlisahuang [at] gmail [dot] com. -->
 
