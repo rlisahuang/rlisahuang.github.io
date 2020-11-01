@@ -15,7 +15,7 @@ Through programming tools that are user-friendly and accessible, I aspire to low
 
 Previously, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from Wellesley College (Wellesley, MA, USA). 
 
-Outside of computer science, I enjoy music, cooking, hiking, and reading. As my experience with linguistics suggests, my passion for languages extends beyond programming languages: my first language is Mandarin, my French is B1/B2, and my Japanese is terrible but in progress.
+Outside of computer science, I enjoy music, figure skating, cooking, and hiking. As my experience with linguistics suggests, my passion for languages extends beyond programming languages: my first language is Mandarin, my French is B1/B2, and my Japanese is terrible but in progress.
 
 <!-- To contact me, please email me at either r6huang [at] ucsd [dot] edu or rlisahuang [at] gmail [dot] com. -->
 
