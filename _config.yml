@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ruanqianqian Huang"
+  name             : "Ruanqianqian (Lisa) Huang"
   avatar           : "profile.jpg"
   bio              : "Incoming Ph.D. student @ UCSD"
   location         : "La Jolla, CA"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=qBtrYu8AAAAJ"
+  email            : "r6huang[at]ucsd[dot]edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

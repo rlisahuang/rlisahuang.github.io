@@ -9,16 +9,22 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming first-year Ph.D. student in the Department of Computer Science and Engineering at UC San Diego, affiliated with the [ProgSys Group](http://cseweb.ucsd.edu/groups/progsys/). My academic interests include programming language design, error reporting and handling, and human-(programming) language interaction.
+I am a first-year Ph.D. student in the Department of Computer Science and Engineering at UC San Diego, affiliated with the [ProgSys Group](http://cseweb.ucsd.edu/groups/progsys/) and advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
+My academic interests lie in the intersection of programming languages and human-computer interaction, include programming language design, error reporting and handling, and human-(programming) language interaction.
+I aspire to implement programming tools that are user-friendly and accessible for not only programmers and professionals but everyone. 
+With better programming tools, I'm eager to make programming and computer science more diverse and inclusive.
 
-I have obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from Wellesley College (Wellesley, MA, USA). Previously, I did my undergraduate thesis with [Prof. Franklyn Turbak](http://cs.wellesley.edu/~fturbak) and worked as an undergraduate research assistant at the Wellesley College [HCI Lab](http://cs.wellesley.edu/~hcilab/).
+Previously, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from Wellesley College (Wellesley, MA, USA). 
 
 Outside of computer science, I enjoy hiking, reading, cooking, and playing/composing music. As my experience with linguistics suggests, my passion for languages extends beyond programming languages: my first language is Mandarin, my French is B1/B2, my Japanese is terrible but in progress.
 
 <!-- To contact me, please email me at either r6huang [at] ucsd [dot] edu or rlisahuang [at] gmail [dot] com. -->
 
-Pronouns: she/her/hers
+*Pronouns:* she/her/hers
 
 News
 ======
-* May 24, 2020: I updated my website using the current template!
+* Aug 1, 2020: I started my PhD Program at UCSD in the [ProgSys Group](http://cseweb.ucsd.edu/groups/progsys/).
+* May 31, 2020: I graduated from Wellesley College with Summa Cum Laude.
+* May 28, 2020: I received the Academic Achievement Award in Computer Science from the Dept. of Computer Science at Wellesley College.
+* May 19, 2020: I defended my undergraduate thesis and received Honors in Computer Science.

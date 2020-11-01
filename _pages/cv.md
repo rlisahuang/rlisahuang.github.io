@@ -8,9 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
-Here's the [link](http://rlisahuang.github.io/files/ruanqianqian-huang-cv.pdf) to my CV.
+<!-- Here's the [link](http://rlisahuang.github.io/files/ruanqianqian-huang-cv.pdf) to my CV.
 
-Last updated: May 22, 2020
+Last updated: May 22, 2020 -->
+Coming soon!
+
+Last updated: Nov 1, 2020
 
 <!-- Education
 ======
