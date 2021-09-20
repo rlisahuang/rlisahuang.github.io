@@ -7,8 +7,8 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ruanqianqian Huang"
-title_separator          : "-"
+title                    : "Ruanqianqian (Lisa) Huang"
+title_separator          : #"-"
 name                     : &name "Ruanqianqian Huang"
 description              : &description "Ph.D. student at UC San Diego"
 url                      : https://rlisahuang.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -82,12 +82,13 @@ analytics:
 author:
   name             : "Ruanqianqian Huang"
   avatar           : "profile.jpg"
-  bio              : "1st-year Ph.D. student, studying programming languages and HCI."
+  bio              : "2nd-year Ph.D. student, studying programming languages and HCI."
   location         : "La Jolla, CA"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=qBtrYu8AAAAJ"
-  email            : #"r6huang[at]ucsd[dot]edu"
+  email            : "r6huang[at]ucsd[dot]edu"
+  pronouns         : "she/her/hers"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,12 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-<!-- Here's the [link](http://rlisahuang.github.io/files/ruanqianqian-huang-cv.pdf) to my CV.
 
-Last updated: May 22, 2020 -->
-Coming soon!
-
-Last updated: Nov 1, 2020
+Updated on June 1, 2021: [cv](http://rlisahuang.github.io/files/ruanqianqian-huang-cv.pdf)
 
 <!-- Education
 ======
