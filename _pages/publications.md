@@ -4,9 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-### [Investigating the Impact of Using a Live Programming Environment in a CS1 Course](/publications/)
+### [New!] [Investigating the Impact of Using a Live Programming Environment in a CS1 Course](/publications/)
 
-**R. Huang**, K. Ferdowsifard, A. Selvaraj, A. Soosai Raj, and S. Lerner. _(Currently under review)_
+**R. Huang**, K. Ferdowsifard, A. Selvaraj, A. Soosai Raj, and S. Lerner. _(Accepted to SIGCSE TS 2022)_
 
 This paper presents the first, to our knowledge, large-scale experimental study (N = 237) on investigating the impact of using a Live Programming environment in a natural educational setting.
 
