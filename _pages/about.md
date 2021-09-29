@@ -12,15 +12,12 @@ My name is Ruanqianqian Huang, aka Lisa or Qianqian. I'm excited by languages (p
 
 I'm a second-year PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from Wellesley College near Boston, MA, where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on designing a textual representation for the block-based MIT App Inventor.
 
-
-
-I am a second-year Ph.D. student in Computer Science advised by  at UC San Diego, affiliated with the . 
 <!-- My academic interests lie in the intersection of programming languages and human-computer interaction, include programming language design, error reporting and handling, and human-(programming) language interaction. -->
 <!-- Through programming tools that are user-friendly and accessible, I aspire to lower the boundaries to learning computer science and programming for everyone. -->
 
 Research
 ------
-My research focuses on programming language techniques and its application in human-computer interaction. I aim to build programming tools that are l**learnable, intuitive, and practical**.
+My research focuses on programming language techniques and its application in human-computer interaction. I aim to build programming tools that are **learnable, intuitive, and practical**.
 
 By _learnable_, I mean with a flat learning curve for everyone from beginners to experts.
 
