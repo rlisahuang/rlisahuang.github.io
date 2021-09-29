@@ -8,22 +8,27 @@ redirect_from:
   - /home/
   - /home.html
 ---
-My name is Ruanqianqian Huang, aka Lisa or Qianqian. I'm excited by programming languages and tools, human-computer interaction, cognitive science, and classical music.
+My name is Ruanqianqian Huang, aka Lisa or Qianqian. I'm excited by languages (programming + natural), human-computer interaction, cognitive science, and classical music.
 
-I am a second-year Ph.D. student in Computer Science advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/) at UC San Diego, affiliated with the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/). Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from Wellesley College near Boston, MA, where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on designing a textual representation for the block-based MIT App Inventor.
+I'm a second-year PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from Wellesley College near Boston, MA, where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on designing a textual representation for the block-based MIT App Inventor.
+
+
+
+I am a second-year Ph.D. student in Computer Science advised by  at UC San Diego, affiliated with the . 
 <!-- My academic interests lie in the intersection of programming languages and human-computer interaction, include programming language design, error reporting and handling, and human-(programming) language interaction. -->
 <!-- Through programming tools that are user-friendly and accessible, I aspire to lower the boundaries to learning computer science and programming for everyone. -->
 
 Research
 ------
-Through programming languages and tools, we express our computational thinking and communicate with the machine. However, the communication can be hard to make without programming techniques that are truly usable.
-I aspire to close the human-machine gap by building **usable** programming tools that assist programmers to easily express their computational thinking -- tools that are **learnable, intuitive, and practical**.
+My research focuses on programming language techniques and its application in human-computer interaction. I aim to build programming tools that are l**learnable, intuitive, and practical**.
 
 By _learnable_, I mean with a flat learning curve for everyone from beginners to experts.
 
 By _intuitive_, I mean cognitive ergonomic, matching tool usage with human cognition such that "what you mean is what you will get."
 
 And, by _practical_, I mean scalable to real-world programming that often involves large-scale codebases and data.
+
+To that end, I'm currently interested in leveraging techniques such as live programming and program synthesis, but I'm always open to adopt other programming techniques to build programming tools that are truly usable.
 
 Recent Projects
 ------
