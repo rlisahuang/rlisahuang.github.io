@@ -29,7 +29,7 @@ To that end, I'm currently interested in leveraging techniques such as live prog
 
 Recent Projects
 ------
-[PB4Edu](/projects/) | [SnipPy+](/projects/) | [Live GUI Development](/projects/)
+[PB4Edu](/projects/) | [SnipPy+](/projects/) | [Live WebApp Development](/projects/)
 
 <!-- Recent Publications [Full List of Publications]()
 ======

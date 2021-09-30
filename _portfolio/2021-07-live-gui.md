@@ -1,5 +1,5 @@
 ---
-title: "Live GUI Development"
+title: "Live WebApp Development"
 excerpt: "A Live Programming environment for writing and debugging event handler code"
 collection: portfolio
 paper:

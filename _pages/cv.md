@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Updated on June 1, 2021: [cv](http://rlisahuang.github.io/files/ruanqianqian-huang-cv.pdf)
+Updated on September 30, 2021: [cv](https://www.dropbox.com/s/yne4bl4zenb2jum/cv_sept_2021.pdf?dl=0)
 
 <!-- Education
 ======
