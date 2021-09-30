@@ -17,7 +17,7 @@ I'm a second-year PhD student studying Computer Science at UC San Diego in the [
 
 Research
 ------
-My research focuses on programming language techniques and its application in human-computer interaction. I aim to build programming tools that are **learnable, intuitive, and practical**.
+My research focuses on programming language techniques and their application in human-computer interaction. I aim to build programming tools that are **learnable, intuitive, and practical**.
 
 By _learnable_, I mean with a flat learning curve for everyone from beginners to experts.
 
@@ -29,7 +29,7 @@ To that end, I'm currently interested in leveraging techniques such as live prog
 
 Recent Projects
 ------
-[PB4Edu](/projects/) | [SnipPy+](/projects/) | [Live WebApp Development](/projects/)
+[SnipPy+](/projects/) | [Live GUI Development](/projects/)
 
 <!-- Recent Publications [Full List of Publications]()
 ======

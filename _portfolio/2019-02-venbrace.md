@@ -1,8 +1,9 @@
 ---
 title: "Venbrace"
-excerpt: "A textual representation for the block-based MIT App Inventor"
+duration: "2019.1 - 2020.7"
+excerpt: "Venbrace is a textual representation for the block-based MIT App Inventor. Its design is principled and empirically evaluated through two user studies. Although no conclusive evidence was found from either study, this project is my first exploration in the space of human-centric programming language design."
 collection: portfolio
-paper: https://repository.wellesley.edu/object/ir1232
+thesis: https://repository.wellesley.edu/object/ir1232
 demo: https://cs.wellesley.edu/~venbrace/
 code:
 ---

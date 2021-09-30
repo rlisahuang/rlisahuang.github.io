@@ -4,25 +4,23 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-### [New!] [Investigating the Impact of Using a Live Programming Environment in a CS1 Course](/publications/)
+### [Investigating the Impact of Using a Live Programming Environment in a CS1 Course](/publications/)
 
-**R. Huang**, K. Ferdowsifard, A. Selvaraj, A. Soosai Raj, and S. Lerner. _(Accepted to SIGCSE TS 2022)_
-
-This paper presents the first, to our knowledge, large-scale experimental study (N = 237) on investigating the impact of using a Live Programming environment in a natural educational setting.
+**R. Huang**, K. Ferdowsifard, A. Selvaraj, A. Soosai Raj, and S. Lerner. 2022. To appear in _Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE ’22)_, Providence, RI, USA, 2022.
 
 ### [The Design and Implementation of Venbrace, a Text Language for App Inventor](https://repository.wellesley.edu/object/ir1232)
 
-**R. Huang**. 2020.
+**R. Huang**. 2020. Bachelor's Thesis. Wellesley College.
 
-This undergraduate thesis details the design, implementation, and evaluation (through a user study) of Venbrace, a fully-braced textual syntax for App Inventor that aims to improve the usability of the blocks-based programming environment.
+<!-- This undergraduate thesis details the design, implementation, and evaluation (through a user study) of Venbrace, a fully-braced textual syntax for App Inventor that aims to improve the usability of the blocks-based programming environment. -->
 
 <!-- R. Huang. The Design and Implementation of Venbrace, a Text Language for App Inventor (Bachelor's thesis). Retrieved from [https://repository.wellesley.edu/object/ir1232](https://repository.wellesley.edu/object/ir1232). -->
 
 ### [A Design for Bidirectional Conversion between Blocks and Text for App Inventor](https://ieeexplore.ieee.org/document/8941197)
 
-**R. Huang** and F. Turbak. 2019.
+**R. Huang** and F. Turbak. 2019. In _2019 IEEE Blocks and Beyond Workshop (B&B)_, Memphis, TN, USA, 2019, pp. 87-89, doi: [10.1109/BB48857.2019.8941197.](10.1109/BB48857.2019.8941197.)
 
-This extended abstract, presented in IEEE Blocks and Beyond Workshop, 2019, introduces a preliminary design for Venbrace based on a collection of design principles.
+<!-- This extended abstract, presented in IEEE Blocks and Beyond Workshop, 2019, introduces a preliminary design for Venbrace based on a collection of design principles. -->
 
 <!-- R. Huang and F. Turbak, "A Design for Bidirectional Conversion between Blocks and Text for App Inventor," 2019 IEEE Blocks and Beyond Workshop (B&B), Memphis, TN, USA, 2019, pp. 87-89, doi: [10.1109/BB48857.2019.8941197.](10.1109/BB48857.2019.8941197.) -->
 
