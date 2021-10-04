@@ -8,16 +8,19 @@ redirect_from:
   - /home/
   - /home.html
 ---
-My name is Ruanqianqian Huang, aka Lisa or Qianqian. I'm excited by languages (programming + natural), human-computer interaction, cognitive science, and classical music.
+My name is Ruanqianqian Huang, aka Lisa or Qianqian. I'm excited by programming languages (PL), human-computer interaction (HCI), cognitive science, and classical music.
 
-I'm a second-year PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from Wellesley College near Boston, MA, where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on designing a textual representation for the block-based MIT App Inventor.
+I'm a second-year PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
+Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
+where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on PL and HCI.
+<!-- where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on designing a textual representation for the block-based MIT App Inventor. -->
 
 <!-- My academic interests lie in the intersection of programming languages and human-computer interaction, include programming language design, error reporting and handling, and human-(programming) language interaction. -->
 <!-- Through programming tools that are user-friendly and accessible, I aspire to lower the boundaries to learning computer science and programming for everyone. -->
 
 Research
 ------
-My research focuses on programming language techniques and their application in human-computer interaction. I aim to build programming tools that are **learnable, intuitive, and practical**.
+My research focuses on programming language techniques and their application in HCI. I aim to build programming tools that are **learnable, intuitive, and practical**.
 
 By _learnable_, I mean with a flat learning curve for everyone from beginners to experts.
 
@@ -27,9 +30,11 @@ And, by _practical_, I mean scalable to real-world programming that often involv
 
 To that end, I'm currently interested in leveraging techniques such as live programming and program synthesis, but I'm always open to adopt other programming techniques to build programming tools that are truly usable.
 
-Recent Projects
+Ongoing Projects
 ------
 [SnipPy+](/projects/) | [Live GUI Development](/projects/)
+
+Please refer to the [Projects](/projects/) tab for a full list of my projects (and a flavor for the kind of research I'm interested in).
 
 <!-- Recent Publications [Full List of Publications]()
 ======

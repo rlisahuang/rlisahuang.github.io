@@ -27,12 +27,13 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="" rel="permalink">{{ title }}</a>
+      <!-- {% if post.link %} -->
+        <!-- <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a> -->
+      <!-- {% else %} -->
+        <!-- <a href="" rel="permalink">{{ title }}</a> -->
         <!-- <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> -->
-      {% endif %}
+      <!-- {% endif %} -->
+      {{ title }}
 
       {% if post.duration %} 
         <small><b>({{ post.duration }})</b></small>
@@ -43,11 +44,15 @@
       {% endif %}
 
       {% if post.thesis %}
-        <small>[<a href="{{ post.paper }}" style="font-size: 16px;">thesis</a>]</small>
+        <small>[<a href="{{ post.thesis }}" style="font-size: 16px;">thesis</a>]</small>
       {% endif %}
 
       {% if post.report %}
-        <small>[<a href="{{ post.paper }}" style="font-size: 16px;">report</a>]</small>
+        <small>[<a href="{{ post.report }}" style="font-size: 16px;">report</a>]</small>
+      {% endif %}
+
+      {% if post.poster %}
+        <small>[<a href="{{ post.poster }}" style="font-size: 16px;">poster</a>]</small>
       {% endif %}
 
       {% if post.code %}
@@ -59,9 +64,21 @@
       {% endif %}
     </h2>
 
+    <!-- project content -->
+    <div style="display: flex">
+    {% if post.image %}
+    <div style="flex: 30%;">
+      <img src=
+        {% if post.image contains "://" %}
+          "{{ post.image }}"
+        {% else %}
+          "{{ post.image | prepend: "/images/" }}"
+        {% endif %}
+        alt="" width="300px">
+    </div>
+    {% endif %}
     
-    
-    
+    <div style="flex: 70%">
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -87,6 +104,8 @@
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
+  </div>
+</div>
 
   </article>
 </div>

@@ -6,6 +6,7 @@ collection: portfolio
 paper:
 code:
 demo:
+image: livegui.png
 ---
 
 Coming soon

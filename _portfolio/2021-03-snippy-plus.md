@@ -6,4 +6,5 @@ collection: portfolio
 paper:
 code:
 demo:
+image: snippy.png
 ---

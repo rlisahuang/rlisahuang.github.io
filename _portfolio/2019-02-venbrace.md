@@ -6,4 +6,6 @@ collection: portfolio
 thesis: https://repository.wellesley.edu/object/ir1232
 demo: https://cs.wellesley.edu/~venbrace/
 code:
+image: venbrace.png
+poster: https://www.dropbox.com/s/h8gscqas3llxsjh/2019_B%26B.pdf?dl=0
 ---

@@ -4,9 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-### [Investigating the Impact of Using a Live Programming Environment in a CS1 Course](/publications/)
+### Investigating the Impact of Using a Live Programming Environment in a CS1 Course
 
-**R. Huang**, K. Ferdowsifard, A. Selvaraj, A. Soosai Raj, and S. Lerner. 2022. To appear in _Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE ’22)_, Providence, RI, USA, 2022.
+**R. Huang**, K. Ferdowsifard, A. Selvaraj, A. Soosai Raj, and S. Lerner. To appear in _Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE ’22)_, Providence, RI, USA, 2022.
 
 ### [The Design and Implementation of Venbrace, a Text Language for App Inventor](https://repository.wellesley.edu/object/ir1232)
 
@@ -18,7 +18,7 @@ author_profile: true
 
 ### [A Design for Bidirectional Conversion between Blocks and Text for App Inventor](https://ieeexplore.ieee.org/document/8941197)
 
-**R. Huang** and F. Turbak. 2019. In _2019 IEEE Blocks and Beyond Workshop (B&B)_, Memphis, TN, USA, 2019, pp. 87-89, doi: [10.1109/BB48857.2019.8941197.](10.1109/BB48857.2019.8941197.)
+**R. Huang** and F. Turbak. In _2019 IEEE Blocks and Beyond Workshop (B&B)_, Memphis, TN, USA, 2019, pp. 87-89, doi: [10.1109/BB48857.2019.8941197.](10.1109/BB48857.2019.8941197.)
 
 <!-- This extended abstract, presented in IEEE Blocks and Beyond Workshop, 2019, introduces a preliminary design for Venbrace based on a collection of design principles. -->
 
