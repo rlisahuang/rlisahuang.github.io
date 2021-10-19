@@ -7,7 +7,7 @@ excerpt: "A recent exploration of mine, LiveStepper is meant to be a Live Progra
 
 2. Gain immediate, continuous feedback on every code change (*live programming*);
 
-3. Examine every change on the UI on every line of statement (by moving there cursor around the editor)."
+3. Examine every change on the UI on every line of statement (by moving their cursor around the editor)."
 collection: portfolio
 paper:
 code:
