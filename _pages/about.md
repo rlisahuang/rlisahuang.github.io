@@ -32,7 +32,9 @@ To that end, I'm currently interested in leveraging techniques such as live prog
 
 Ongoing Projects
 ------
-[SnipPy+](/projects/) | [Live GUI Development](/projects/)
+- [LiveStepper](/projects/): a programming environment for JavaScript event handlers incorporating Live Programming, Step-wise Debugging and Automatic GUI Testing.
+- [Live Rust](/projects/): a Live Programming environment for Rust ownership and lifetimes.
+- [SnipPy+](/projects/): an uninterrupted live programming-by-example synthesizer.
 
 Please refer to the [Projects](/projects/) tab for a full list of my projects (and a flavor for the kind of research I'm interested in).
 
