@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-### Investigating the Impact of Using a Live Programming Environment in a CS1 Course
+### [Investigating the Impact of Using a Live Programming Environment in a CS1 Course](https://www.dropbox.com/s/sjb3xx7ympvvmm8/PB4Edu_SIGCSE22_draft.pdf?dl=0)
 
 **R. Huang**, K. Ferdowsifard, A. Selvaraj, A. Soosai Raj, and S. Lerner. To appear in _Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE ’22)_, Providence, RI, USA, 2022.
 
