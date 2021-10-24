@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Updated on October 3, 2021: [cv](https://www.dropbox.com/s/170njqe03bkwylp/cv_oct_2021.pdf?dl=0)
+Updated on October 3, 2021: <a href="/files/rh_cv.pdf" target="_blank">cv</a>
 
 <!-- Education
 ======

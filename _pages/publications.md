@@ -4,11 +4,11 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-### [Investigating the Impact of Using a Live Programming Environment in a CS1 Course](https://www.dropbox.com/s/sjb3xx7ympvvmm8/PB4Edu_SIGCSE22_draft.pdf?dl=0)
+<h3><a href="/files/PB4Edu_SIGCSE22_draft.pdf" target="_blank">Investigating the Impact of Using a Live Programming Environment in a CS1 Course</a></h3>
 
 **R. Huang**, K. Ferdowsifard, A. Selvaraj, A. Soosai Raj, and S. Lerner. To appear in _Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE ’22)_, Providence, RI, USA, 2022.
 
-### [The Design and Implementation of Venbrace, a Text Language for App Inventor](https://repository.wellesley.edu/object/ir1232)
+<h3><a href="https://repository.wellesley.edu/object/ir1232" target="_blank">The Design and Implementation of Venbrace, a Text Language for App Inventor</a></h3>
 
 **R. Huang**. 2020. Bachelor's Thesis. Wellesley College.
 
@@ -16,7 +16,7 @@ author_profile: true
 
 <!-- R. Huang. The Design and Implementation of Venbrace, a Text Language for App Inventor (Bachelor's thesis). Retrieved from [https://repository.wellesley.edu/object/ir1232](https://repository.wellesley.edu/object/ir1232). -->
 
-### [A Design for Bidirectional Conversion between Blocks and Text for App Inventor](https://ieeexplore.ieee.org/document/8941197)
+<h3><a href="https://ieeexplore.ieee.org/document/8941197" target="_blank">A Design for Bidirectional Conversion between Blocks and Text for App Inventor</a></h3>
 
 **R. Huang** and F. Turbak. In _2019 IEEE Blocks and Beyond Workshop (B&B)_, Memphis, TN, USA, 2019, pp. 87-89, doi: [10.1109/BB48857.2019.8941197.](10.1109/BB48857.2019.8941197.)
 
