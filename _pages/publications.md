@@ -4,11 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-<h3><a href="/files/PB4Edu_SIGCSE22_draft.pdf" target="_blank">Investigating the Impact of Using a Live Programming Environment in a CS1 Course</a></h3>
+<h3><a href="/files/PB4Edu_SIGCSE22.pdf" target="_blank">Investigating the Impact of Using a Live Programming Environment in a CS1 Course</a></h3>
 
 **R. Huang**, K. Ferdowsifard, A. Selvaraj, A. Soosai Raj, and S. Lerner. To appear in _Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE ’22)_, Providence, RI, USA, 2022.
-
-_Note_: Camera-ready version coming soon.
 
 <h3><a href="https://repository.wellesley.edu/object/ir1232" target="_blank">The Design and Implementation of Venbrace, a Text Language for App Inventor</a></h3>
 
