@@ -8,7 +8,7 @@ redirect_from:
   - /home/
   - /home.html
 ---
-My name is Ruanqianqian Huang, aka Lisa or Qianqian. I'm excited by programming languages (PL), human-computer interaction (HCI), cognitive science, and classical music.
+My name is Ruanqianqian Huang, aka Lisa or Qianqian. I'm excited by programming languages (PL), human-computer interaction (HCI), cognitive science, weightlifting, and classical music.
 
 I'm a second-year PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
