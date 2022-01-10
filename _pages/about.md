@@ -20,15 +20,15 @@ where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~ftur
 
 Research
 ------
-My research focuses on programming language techniques and their application in HCI. I aim to build programming tools that are **learnable, intuitive, and practical**.
 
-By _learnable_, I mean with a flat learning curve for everyone from beginners to experts.
+I build programming tools (languages and interfaces) for tomorrow. To that end, my research focuses on programming language techniques and their application in HCI.
 
-By _intuitive_, I mean cognitive ergonomic, matching tool usage with human cognition such that "what you mean is what you will get."
+I aim to build programming tools that are **learnable, intuitive, and practical**.
+- By _learnable_, I mean with a flat learning curve for everyone from beginners to experts.
+- By _intuitive_, I mean cognitive ergonomic, matching tool usage with human cognition such that "what you mean is what you will get" (WYMIWYG).
+- And, by _practical_, I mean scalable to real-world programming that often involves large-scale codebases and data.
 
-And, by _practical_, I mean scalable to real-world programming that often involves large-scale codebases and data.
-
-To that end, I'm currently interested in leveraging techniques such as live programming and program synthesis, but I'm always open to adopt other programming techniques to build programming tools that are truly usable.
+To that end, I'm currently interested in leveraging techniques such as live programming and program synthesis, but I'm always open to adopt other programming techniques to build programming tools that make programming a more enjoyable experience.
 
 Ongoing Projects
 ------
