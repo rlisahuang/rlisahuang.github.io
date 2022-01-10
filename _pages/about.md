@@ -21,7 +21,7 @@ where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~ftur
 Research
 ------
 
-I build programming tools (languages and interfaces) for tomorrow. To that end, my research focuses on programming language techniques and their application in HCI.
+I build programming tools (languages and interfaces) for tomorrow. My research thus focuses on programming language techniques and their application in HCI.
 
 I aim to build programming tools that are **learnable, intuitive, and practical**.
 - By _learnable_, I mean with a flat learning curve for everyone from beginners to experts.
