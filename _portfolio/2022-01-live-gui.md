@@ -1,7 +1,7 @@
 ---
-title: "LiveStepper"
-duration: "2021.8 - Present"
-excerpt: "A recent exploration of mine, LiveStepper is meant to be a Live Programming environment for constructing and debugging event handler code. Current efforts involve (1) a preliminary design and implementation of LiveStepper, and (2) a need-finding study to better understand the struggles of event handling and DOM manipulation and to improve the design of LiveStepper."
+title: "Step'n'Tune"
+duration: "2021.12 - Present"
+excerpt: "We proposed a new paradigm called interactive live programming, which provides live feedback both when the programmer modifies the program and when they interact with the program output. We implemented this paradigm in a system called Step’n’Tune in an important context: web-based event driven programming. Step’n’Tune allows the user to alternate between coding and interacting with the webpage in the same interface, live-visualizes all the execution traces and intermediate UI changes per interaction, and keeps the execution and UI traces up-to-date with the code."
 collection: portfolio
 paper:
 code:

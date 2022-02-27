@@ -10,7 +10,7 @@ redirect_from:
 ---
 My name is Ruanqianqian Huang, aka Lisa or Qianqian. I'm excited by programming languages (PL), human-computer interaction (HCI), cognitive science, weightlifting, and classical music.
 
-I'm a second-year PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
+I'm a PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
 where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on PL and HCI.
 <!-- where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on designing a textual representation for the block-based MIT App Inventor. -->
@@ -28,12 +28,13 @@ I aim to build programming tools that are **learnable, intuitive, and practical*
 - By _intuitive_, I mean cognitive ergonomic, matching tool usage with human cognition such that "what you mean is what you will get" (WYMIWYG).
 - And, by _practical_, I mean scalable to real-world programming that often involves large-scale codebases and data.
 
-To that end, I'm currently interested in leveraging techniques such as live programming and program synthesis, but I'm always open to adopt other programming techniques to build programming tools that make programming a more enjoyable experience.
+To that end, I'm currently interested in leveraging techniques such as live programming and program analysis, but I'm always open to adopt other programming techniques to build programming tools that make programming a more enjoyable experience.
 
 Ongoing Projects
 ------
-- [LiveStepper](/projects/): a programming environment for JavaScript event handlers incorporating Live Programming, Step-wise Debugging and Automatic GUI Testing.
-- [Live Rust](/projects/): a Live Programming environment for Rust ownership and lifetimes.
+- [Step'n'Tune](/projects/): an environment for web development with *interactive* live programming.
+<!-- - [Live Rust](/projects/): a Live Programming environment for Rust ownership and lifetimes. -->
+- [Rust](/projects/): better Rust error reporting on lifetimes and ownerships.
 - [SnipPy+](/projects/): an uninterrupted live programming-by-example synthesizer.
 
 Please refer to the [Projects](/projects/) tab for a full list of my projects (and a flavor for the kind of research I'm interested in).
