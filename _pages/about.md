@@ -21,7 +21,7 @@ where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~ftur
 Research
 ------
 
-I build programming tools (languages and interfaces) for tomorrow. My research thus focuses on programming language techniques and their application in HCI.
+I build interactive systems for programming. My research thus focuses on programming language techniques and their application in HCI.
 
 I aim to build programming tools that are **learnable, intuitive, and practical**.
 - By _learnable_, I mean with a flat learning curve for everyone from beginners to experts.
@@ -32,7 +32,7 @@ To that end, I'm currently interested in leveraging techniques such as live prog
 
 Ongoing Projects
 ------
-- [Step'n'Tune](/projects/): an environment for web development with *interactive* live programming.
+- [Step'n'Tune](/projects/): a live programming environment _with output interactions_ for developing GUI applications.
 <!-- - [Live Rust](/projects/): a Live Programming environment for Rust ownership and lifetimes. -->
 - [Rust](/projects/): better Rust error reporting on lifetimes and ownerships.
 - [SnipPy+](/projects/): an uninterrupted live programming-by-example synthesizer.

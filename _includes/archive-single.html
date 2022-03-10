@@ -55,13 +55,18 @@
         <small>[<a href="{{ post.poster }}" style="font-size: 16px;">poster</a>]</small>
       {% endif %}
 
-      {% if post.code %}
-        <small>[<a href="{{ post.code }}" style="font-size: 16px;">code</a>]</small>
+      {% if post.talk %}
+        <small>[<a href="{{ post.talk }}" style="font-size: 16px;">talk</a>]</small>
       {% endif %}
 
       {% if post.demo %}
         <small>[<a href="{{ post.demo }}" style="font-size: 16px;">demo</a>]</small>
       {% endif %}
+
+      {% if post.code %}
+        <small>[<a href="{{ post.code }}" style="font-size: 16px;">code</a>]</small>
+      {% endif %}
+
     </h2>
 
     <!-- project content -->
