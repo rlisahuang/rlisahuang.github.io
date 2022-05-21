@@ -8,11 +8,13 @@ redirect_from:
   - /home/
   - /home.html
 ---
-My name is Ruanqianqian Huang, aka Lisa or Qianqian. I'm excited by programming languages (PL), human-computer interaction (HCI), cognitive science, weightlifting, and classical music.
+My name is Ruanqianqian Huang, aka Lisa or Qianqian. I'm excited by programming languages (PL), human-computer interaction (HCI), and cognitive science. 
 
 I'm a PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
 where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on PL and HCI.
+
+See [Fun](/fun/) for my life outside of computer science.
 <!-- where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on designing a textual representation for the block-based MIT App Inventor. -->
 
 <!-- My academic interests lie in the intersection of programming languages and human-computer interaction, include programming language design, error reporting and handling, and human-(programming) language interaction. -->
@@ -21,21 +23,28 @@ where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~ftur
 Research
 ------
 
-I build interactive systems for programming. My research thus focuses on programming language techniques and their application in HCI.
+I build interactive systems for programming, hoping to bring more cognitive ergonomics to programmer <-> computer communication in programming tasks. Note that this is a _two-way_ communication:
 
-I aim to build programming tools that are **learnable, intuitive, and practical**.
+1. From the computer's perspective, with the abundance of information available when a program is being authored, modified and executed, I aim to present the most relevant information to the programmer in an appropriate manner using techniques such as **instrumentation** and **slicing**; and
+
+2. From the programmer's perspective, I would like to improve the existing programming setup such as **the design of IDEs** and **input modalities** to ease the processes of code authoring, comprehension, navigation and debugging.
+
+<!-- I aim to build programming tools that are **learnable, intuitive, and practical**.
 - By _learnable_, I mean with a flat learning curve for everyone from beginners to experts.
 - By _intuitive_, I mean cognitive ergonomic, matching tool usage with human cognition such that "what you mean is what you will get" (WYMIWYG).
-- And, by _practical_, I mean scalable to real-world programming that often involves large-scale codebases and data.
+- And, by _practical_, I mean scalable to real-world programming that often involves large-scale codebases and data. -->
 
-To that end, I'm currently interested in leveraging techniques such as live programming and program analysis, but I'm always open to adopt other programming techniques to build programming tools that make programming a more enjoyable experience.
+To that end, I currently use **mixed methods** to study the psychology of programming, and I leverage **cognitive science theories** as well as the technique of **live programming** to improve the design of programming environments. My life-long mission is to make programming a more enjoyable experience.
+
+<!-- , but I'm always open to adopt other programming techniques to build programming tools that make programming a more enjoyable experience. -->
 
 Ongoing Projects
 ------
-- [Step'n'Tune](/projects/): a live programming environment _with output interactions_ for developing GUI applications.
+- [Step'n'Tune](/projects/): a live programming environment for interactive applications.
+- PBUnit: a live programming environment with built-in support for unit testing and example-centric programming.
 <!-- - [Live Rust](/projects/): a Live Programming environment for Rust ownership and lifetimes. -->
-- [Rust](/projects/): better Rust error reporting on lifetimes and ownerships.
-- [SnipPy+](/projects/): an uninterrupted live programming-by-example synthesizer.
+<!-- - [Rust](/projects/): better Rust error reporting on lifetimes and ownerships. -->
+<!-- - [SnipPy+](/projects/): an uninterrupted live programming-by-example synthesizer. -->
 
 Please refer to the [Projects](/projects/) tab for a full list of my projects (and a flavor for the kind of research I'm interested in).
 
