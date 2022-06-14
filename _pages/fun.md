@@ -10,13 +10,17 @@ redirect_from:
 {% include base_path %}
 
 ## Music
+**[My SoundCloud](https://soundcloud.com/ruanqianqian-huang)**
+
+- I have been playing / jamming solo recently due to COVID and not being able to find a chamber group / band to jam with in SD. However, friends in UCSD CSE might resume their pre-COVID jamming sessions very soon, so I really look forward to that!
+
 - During college, I picked up the Baroque flute (traverso), the precurssor of modern flutes in the Baroque era. I have performed in chamber music groups on the Baroque flute, and held my first (and only) personal recital on the Baroque flute in May 2019.
 
 - I've also been playing the modern flute since the 7th grade, when I got invited to join the school orchestra. I later became the orchestra's Principal Flute in the 10th grade, and also won the 1st prize in a regional music competition.
 
 - I took my first piano lesson just after I turned 5, and piano became a major part of my life (until I switched my focus to flute). After stopped playing for almost 8 years, I picked it up again in 2021.
 
-- You'd thought I'd only listen to classical music based on my journey. Quite on the contrary, I'm a big fan of R&B and rock music. My favorite artist is Hikaru Utada (宇多田ヒカル), and I'm a big fan of the rock band ONE OK ROCK.
+- I love classical music, but I am also a big fan of R&B and rock music. My favorite artist is Hikaru Utada (宇多田ヒカル), and I'm a big fan of the rock band ONE OK ROCK.
 
 ## Languages
 I _love_ learning languages. 
