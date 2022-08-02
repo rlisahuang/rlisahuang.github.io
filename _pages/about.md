@@ -34,13 +34,16 @@ I build interactive systems for programming, hoping to bring more cognitive ergo
 - By _intuitive_, I mean cognitive ergonomic, matching tool usage with human cognition such that "what you mean is what you will get" (WYMIWYG).
 - And, by _practical_, I mean scalable to real-world programming that often involves large-scale codebases and data. -->
 
-To that end, I currently use **mixed methods** to understand programmers, and I leverage **cognitive science theories** as well as the technique of **live programming** to improve the design of programming environments. My life-long mission is to make programming a more enjoyable experience.
+<!-- To that end, I adopt the **human-centered** approach to design programming environments: I incorporate potential users of my work early in the design process through **need-finding** and **participatory design**.  -->
+
+To that end, I build **live programming**-based tools for various domains of programming, and I use **mixed methods** to understand programmers as well as to improve the design of programming environments. My life-long mission is to make programming a more enjoyable experience.
 
 <!-- , but I'm always open to adopt other programming techniques to build programming tools that make programming a more enjoyable experience. -->
 
 Ongoing Projects
 ------
 - [Step'n'Tune](/projects/): a live programming environment for interactive applications.
+- [Online Z3 Guide](/projects/): rise4fun is back! Now serving Z3 as the first customer.
 - [Live Synthesis Recognition](/projects/): live programming for the recognition of synthesized code.
 <!-- - PBUnit: a live programming environment with built-in support for unit testing and example-centric programming. -->
 <!-- - [Live Rust](/projects/): a Live Programming environment for Rust ownership and lifetimes. -->
