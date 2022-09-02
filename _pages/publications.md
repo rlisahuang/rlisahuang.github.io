@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-<h3>Live UI Programming</h3>
+### [Live UI Programming](/publications/)
 
 **Ruanqianqian (Lisa) Huang** and Sorin Lerner. In submission.
 
