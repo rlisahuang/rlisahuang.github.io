@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Updated on September 1, 2022: <a href="/files/rh_cv.pdf" target="_blank">cv</a>
+Updated on October 14, 2022: <a href="/files/rh_cv.pdf" target="_blank">cv</a>
 
 <!-- Education
 ======
