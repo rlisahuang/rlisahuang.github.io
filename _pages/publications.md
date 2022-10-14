@@ -6,7 +6,7 @@ author_profile: true
 ---
 ### [Improving the Teaching and Learning of Symbolic Logic Solving via the Web](/publications/)
 
-**Ruanqianqian (Lisa) Huang**, Ayana Monroe, Sorin Lerner, Peli de Halleux and Nikølaj Bjorner. In preparation.
+**Ruanqianqian (Lisa) Huang**, Ayana Monroe, Sorin Lerner, Peli de Halleux and Nikolaj Bjørner. In preparation.
 
 ### [Towards Live Programming for Interactive GUI Applications](/publications/)
 
