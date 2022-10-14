@@ -22,29 +22,42 @@ See [Fun](/fun/) for my life outside of computer science.
 
 Research
 ------
+I design and develop programming tools. I do not have a specific research area, but an overall research _vision_: I hope to improve *human <-> human communication*, the main media of which are computers, specifically programming tools. Such communication can be subdivided into two categories, each coming with questions I aim to address:
 
-I build interactive systems for programming, hoping to bring more cognitive ergonomics to programmer <-> computer communication in programming tasks. Note that this is a _two-way_ communication:
+1. **Tool Designer-to-User Communication.** How should the designer of a programming tool (languages, interfaces, etc.) effectively communicate their design intent and the capabilities of the tool to the user, so that the tool is learnable and usable? What needs to be done so that the users' needs are taken into consideration during the design and development of the tool?
+
+2. **Programmer-to-Programmer Communication.** What needs to be done in a programming tool such that it helps a programmer understand code written by the others (including machines)?
+
+<!-- old -->
+
+<!-- I build interactive systems for programming, hoping to bring more cognitive ergonomics to programmer <-> computer communication in programming tasks. Note that this is a _two-way_ communication:
 
 1. From the computer's perspective, with the abundance of information available when a program is being authored, modified and executed, I aim to present the most relevant information to the programmer in an appropriate manner using techniques such as **instrumentation** and **slicing**; and
 
-2. From the programmer's perspective, I would like to improve the existing programming setup such as **the design of IDEs** and **input modalities** to ease the processes of code authoring, comprehension, navigation and debugging.
+2. From the programmer's perspective, I would like to improve the existing programming setup such as **the design of IDEs** and **input modalities** to ease the processes of code authoring, comprehension, navigation and debugging.-->
 
 <!-- I aim to build programming tools that are **learnable, intuitive, and practical**.
 - By _learnable_, I mean with a flat learning curve for everyone from beginners to experts.
 - By _intuitive_, I mean cognitive ergonomic, matching tool usage with human cognition such that "what you mean is what you will get" (WYMIWYG).
 - And, by _practical_, I mean scalable to real-world programming that often involves large-scale codebases and data. -->
 
-<!-- To that end, I adopt the **human-centered** approach to design programming environments: I incorporate potential users of my work early in the design process through **need-finding** and **participatory design**.  -->
+To that end, I adopt the **human-centered** approach to design programming environments: 
+- I use evidence from cognitive science to derive the design space of a programming tool; and
+- I work with potential users of a programming tool to fine tune the design space and to iterate on existing designs.
+<!-- I incorporate potential users of my work early in the design process through **need-finding** and **participatory design**.  -->
 
-To that end, I build **live programming**-based tools for various domains of programming, and I use **mixed methods** to understand programmers as well as to improve the design of programming environments. My life-long mission is to make programming a more enjoyable experience.
+<!-- To that end,  -->
+<!-- I build **live programming**-based tools for various domains of programming, and  -->
+<!-- I use **mixed methods** to understand programmers as well as to improve the design of programming environments. My life-long mission is to make programming a more enjoyable experience.  -->
 
 <!-- , but I'm always open to adopt other programming techniques to build programming tools that make programming a more enjoyable experience. -->
 
-Ongoing Projects
+Recent Projects
 ------
+- How do functional programmers debug?
+- [Live Synthesis Recognition](/projects/): live programming for the recognition of synthesized code.
 - [Step'n'Tune](/projects/): a live programming environment for interactive applications.
 - [Online Z3 Guide](/projects/): rise4fun is back! Now serving Z3 as the first customer.
-- [Live Synthesis Recognition](/projects/): live programming for the recognition of synthesized code.
 <!-- - PBUnit: a live programming environment with built-in support for unit testing and example-centric programming. -->
 <!-- - [Live Rust](/projects/): a Live Programming environment for Rust ownership and lifetimes. -->
 <!-- - [Rust](/projects/): better Rust error reporting on lifetimes and ownerships. -->
