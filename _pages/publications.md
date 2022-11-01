@@ -4,17 +4,17 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-### [Improving the Teaching and Learning of Symbolic Logic Solving via the Web](/publications/)
+<!-- ### [Improving the Teaching and Learning of Symbolic Logic Solving via the Web](/publications/)
 
-**Ruanqianqian (Lisa) Huang**, Ayana Monroe, Sorin Lerner, Peli de Halleux and Nikolaj Bjørner. In preparation.
+**Ruanqianqian (Lisa) Huang**, Ayana Monroe, Sorin Lerner, Peli de Halleux and Nikolaj Bjørner. In preparation. -->
 
-### [Towards Live Programming for Interactive GUI Applications](/publications/)
+<h3><a href="/files/research_exam_report.pdf" target="_blank">Towards Live Programming for Interactive GUI Applications</a></h3>
 
 **Ruanqianqian (Lisa) Huang**. 2022. Research Exam. UC San Diego.
 
 ### [Live UI Programming](/publications/)
 
-**Ruanqianqian (Lisa) Huang** and Sorin Lerner. In review.
+**Ruanqianqian (Lisa) Huang** and Sorin Lerner. In review. (manuscript available upon request)
 
 <h3><a href="/files/PB4Edu_SIGCSE22.pdf" target="_blank">Investigating the Impact of Using a Live Programming Environment in a CS1 Course</a></h3>
 
