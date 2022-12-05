@@ -8,9 +8,9 @@ redirect_from:
   - /home/
   - /home.html
 ---
-My name is Ruanqianqian Huang, and I normally go by Lisa. I'm excited by programming languages (PL), human-computer interaction (HCI), and cognitive science. 
+My name is Lisa. I'm excited by programming languages (PL), human-computer interaction (HCI), and cognitive science. 
 
-I'm a PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
+I am a PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
 where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on PL and HCI.
 
@@ -22,11 +22,14 @@ See [Fun](/fun/) for my life outside of computer science.
 
 Research
 ------
-I design and develop programming tools. I do not have a specific research area, but an overall research _vision_: I hope to improve *human <-> human communication*, the main media of which are computers, specifically programming tools. Such communication can be subdivided into two categories, each coming with questions I aim to address:
+I design and develop programming tools. My current research _vision_ is the following: I hope to improve *human <-> human communication*, the main media of which are computers, specifically programming tools. Such communication can be subdivided into two categories, each coming with questions I aim to address:
 
-1. **Tool Designer-to-User Communication.** How should the designer of a programming tool (languages, interfaces, etc.) effectively communicate their design intent and the capabilities of the tool to the user, so that the tool is learnable and usable? What needs to be done so that the users' needs are taken into consideration during the design and development of the tool?
+<!-- 1. **Tool Designer-to-User Communication.** How should the designer of a programming tool (languages, interfaces, etc.) effectively communicate their design intent and the capabilities of the tool to the user, so that the tool is learnable and usable? What needs to be done so that the users' needs are taken into consideration during the design and development of the tool?
 
-2. **Programmer-to-Programmer Communication.** What needs to be done in a programming tool such that it helps a programmer understand code written by the others (including machines)?
+2. **Programmer-to-Programmer Communication.** What needs to be done in a programming tool such that it helps a programmer understand code written by the others (including machines)? -->
+1. **Self-to-Self Communication.** What programming aids can be developed to help the programmer correctly reason about the program behavior, assiting them with refining their mental model? How can one receive aids in understanding code they wrote a while ago?
+
+2. **Self-to-Other Communication.** How do we help programmers communicate their thought processes more effectively with collaborators, synchronously and asynchronously? What meta-data of cognitive processes can be embedded in programming languages and interfaces?
 
 <!-- old -->
 
@@ -42,8 +45,11 @@ I design and develop programming tools. I do not have a specific research area, 
 - And, by _practical_, I mean scalable to real-world programming that often involves large-scale codebases and data. -->
 
 To that end, I adopt the **human-centered** approach to design programming environments: 
-- I use evidence from cognitive science to derive the design space of a programming tool; and
+- I use evidence from cognitive science and empirical investigations to derive the design space of a programming tool; and
 - I work with potential users of a programming tool to fine tune the design space and to iterate on existing designs.
+
+I believe that under different _contexts_ of programming (e.g., debugging vs. authoring, functional vs. imperative), programmers adapt their programming strategies to the corresponding contexts. 
+My research concerns **cognitive ergonomics in programming systems**, and my goal is to develop context-specific programming tools that suit well with programmer strategies.
 <!-- I incorporate potential users of my work early in the design process through **need-finding** and **participatory design**.  -->
 
 <!-- To that end,  -->
@@ -54,9 +60,9 @@ To that end, I adopt the **human-centered** approach to design programming envir
 
 Recent Projects
 ------
-- How do functional programmers debug?
-- [Live Synthesis Recognition](/projects/): live programming for the recognition of synthesized code.
-- [Step'n'Tune](/projects/): a live programming environment for interactive applications.
+- [Functional Debugging](/projects/): gathering evidence of how functional programmers debug.
+<!-- - [Live Synthesis Recognition](/projects/): live programming for the recognition of synthesized code. -->
+- [Step'n'Tune](/projects/): connecting code with output in interactive GUI applications, _with liveness_.
 - [Online Z3 Guide](/projects/): rise4fun is back! Now serving Z3 as the first customer.
 <!-- - PBUnit: a live programming environment with built-in support for unit testing and example-centric programming. -->
 <!-- - [Live Rust](/projects/): a Live Programming environment for Rust ownership and lifetimes. -->
