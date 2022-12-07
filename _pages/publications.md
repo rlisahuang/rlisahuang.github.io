@@ -8,7 +8,7 @@ author_profile: true
 
 **Ruanqianqian (Lisa) Huang**, Ayana Monroe, Sorin Lerner, Peli de Halleux and Nikolaj Bjørner. In preparation. -->
 
-### [How do Haskell programmers debug?]](/publications/)
+### [How do Haskell programmers debug?](/publications/)
 
 **Ruanqianqian (Lisa) Huang**, Elizaveta Pertseva, Michael Coblenz and Sorin Lerner. In submission.
 
