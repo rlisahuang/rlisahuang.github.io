@@ -14,7 +14,7 @@ author_profile: true
 
 ### [How do Haskell programmers debug?](/publications/)
 
-**Ruanqianqian (Lisa) Huang**, Elizaveta Pertseva, Michael Coblenz and Sorin Lerner. In review.
+**Ruanqianqian (Lisa) Huang**, Elizaveta Pertseva, Michael Coblenz, and Sorin Lerner. To appear in _the 13th annual workshop on the intersection of HCI and PL (PLATEAU '23)_.
 
 <h3><a href="/files/research_exam_report.pdf" target="_blank">Towards Live Programming for Interactive GUI Applications</a></h3>
 
