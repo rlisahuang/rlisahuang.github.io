@@ -12,7 +12,7 @@ author_profile: true
 
 **Ruanqianqian (Lisa) Huang** and Sorin Lerner. In submission.
 
-### [How do Haskell programmers debug?](/publications/)
+<h3><a href="/files/plateau_23.pdf" target="_blank">How do Haskell programmers debug?</a></h3>
 
 **Ruanqianqian (Lisa) Huang**, Elizaveta Pertseva, Michael Coblenz, and Sorin Lerner. To appear in _the 13th annual workshop on the intersection of HCI and PL (PLATEAU '23)_.
 
