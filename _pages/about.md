@@ -46,10 +46,11 @@ I design and develop programming tools. My current research _vision_ is the foll
 
 To that end, I adopt the **human-centered** approach to design programming environments: 
 - I use evidence from cognitive science and empirical investigations to derive the design space of a programming tool; and
-- I work with potential users of a programming tool to fine tune the design space and to iterate on existing designs.
+- I work with potential users of a programming tool to refine the design space and to iterate on existing designs.
 
-I believe that under different _contexts_ of programming (e.g., debugging vs. authoring, functional vs. imperative), programmers adapt their programming strategies to the corresponding contexts. 
-My research concerns **cognitive ergonomics in programming systems**, and my goal is to develop context-specific programming tools that suit well with programmer strategies.
+<!-- I believe that under different _contexts_ of programming (e.g., debugging vs. authoring, functional vs. imperative), programmers adapt their programming strategies to the corresponding contexts.  -->
+I believe that **comprehension** is key to the successful execution of many programming tasks (e.g., debugging, refactoring), and my goal is to develop programming tools that help programmers understand the information presented to them in order to be more effective with other programming tasks.
+<!-- My research concerns **cognitive ergonomics in programming systems**, and my goal is to develop context-specific programming tools that suit well with programmer strategies. -->
 <!-- I incorporate potential users of my work early in the design process through **need-finding** and **participatory design**.  -->
 
 <!-- To that end,  -->
@@ -60,7 +61,8 @@ My research concerns **cognitive ergonomics in programming systems**, and my goa
 
 Recent Projects
 ------
-- [Functional Debugging](/projects/): gathering evidence of how functional programmers debug.
+- [LEAP](/projects/): Live Exploration of AI-generated Programs.
+- [Functional Debugging](/projects/): designing Haskell debugging support backed by empirical evidence.
 <!-- - [Live Synthesis Recognition](/projects/): live programming for the recognition of synthesized code. -->
 - [Step'n'Tune](/projects/): connecting code with output in interactive GUI applications, _with liveness_.
 - [Online Z3 Guide](/projects/): rise4fun is back! Now serving Z3 as the first customer.

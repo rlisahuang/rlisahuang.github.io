@@ -8,17 +8,17 @@ author_profile: true
 
 **Ruanqianqian (Lisa) Huang**, Ayana Monroe, Sorin Lerner, Peli de Halleux and Nikolaj Bjørner. In preparation. -->
 
+### [Visualizing Code-Behavior Correspondences in Event-Driven Programming](/publications/)
+
+**Ruanqianqian (Lisa) Huang** and Sorin Lerner. In submission.
+
 ### [How do Haskell programmers debug?](/publications/)
 
-**Ruanqianqian (Lisa) Huang**, Elizaveta Pertseva, Michael Coblenz and Sorin Lerner. In submission.
+**Ruanqianqian (Lisa) Huang**, Elizaveta Pertseva, Michael Coblenz, and Sorin Lerner. To appear in _the 13th annual workshop on the intersection of HCI and PL (PLATEAU '23)_.
 
 <h3><a href="/files/research_exam_report.pdf" target="_blank">Towards Live Programming for Interactive GUI Applications</a></h3>
 
 **Ruanqianqian (Lisa) Huang**. 2022. Research Exam. UC San Diego.
-
-<!-- ### [Live UI Programming](/publications/)
-
-**Ruanqianqian (Lisa) Huang** and Sorin Lerner. In review. (manuscript available upon request) -->
 
 <h3><a href="/files/PB4Edu_SIGCSE22.pdf" target="_blank">Investigating the Impact of Using a Live Programming Environment in a CS1 Course</a></h3>
 
