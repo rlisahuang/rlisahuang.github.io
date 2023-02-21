@@ -8,7 +8,7 @@ redirect_from:
   - /home/
   - /home.html
 ---
-My name is Lisa. I'm excited by programming languages (PL), human-computer interaction (HCI), and cognitive science. 
+My name is Lisa. I am excited by programming languages (PL), human-computer interaction (HCI), and cognitive science. 
 
 I am a PhD student studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
@@ -22,14 +22,15 @@ See [Fun](/fun/) for my life outside of computer science.
 
 Research
 ------
-I design and develop programming tools. My current research _vision_ is the following: I hope to improve *human <-> human communication*, the main media of which are computers, specifically programming tools. Such communication can be subdivided into two categories, each coming with questions I aim to address:
+I design and develop _programming assistants_. I define programming assistants as the following: (1) they show the ground truths of the program execution, and (2) they suggest usable and understandable edit to the code. Programming assistants with a technology-first design can lead to usability problems and cognitive burdens, requiring the user to adapt their behavior to the tool. How do we design _usable_ programming assistants?
+<!-- My current research _vision_ is the following: I hope to improve *human <-> human communication*, the main media of which are computers, specifically programming tools. Such communication can be subdivided into two categories, each coming with questions I aim to address: -->
 
 <!-- 1. **Tool Designer-to-User Communication.** How should the designer of a programming tool (languages, interfaces, etc.) effectively communicate their design intent and the capabilities of the tool to the user, so that the tool is learnable and usable? What needs to be done so that the users' needs are taken into consideration during the design and development of the tool?
 
 2. **Programmer-to-Programmer Communication.** What needs to be done in a programming tool such that it helps a programmer understand code written by the others (including machines)? -->
-1. **Self-to-Self Communication.** What programming aids can be developed to help the programmer correctly reason about the program behavior, assiting them with refining their mental model? How can one receive aids in understanding code they wrote a while ago?
+<!-- 1. **Self-to-Self Communication.** What programming aids can be developed to help the programmer correctly reason about the program behavior, assiting them with refining their mental model? How can one receive aids in understanding code they wrote a while ago? -->
 
-2. **Self-to-Other Communication.** How do we help programmers communicate their thought processes more effectively with collaborators, synchronously and asynchronously? What meta-data of cognitive processes can be embedded in programming languages and interfaces?
+<!-- 2. **Self-to-Other Communication.** How do we help programmers communicate their thought processes more effectively with collaborators, synchronously and asynchronously? What meta-data of cognitive processes can be embedded in programming languages and interfaces? -->
 
 <!-- old -->
 
@@ -44,12 +45,12 @@ I design and develop programming tools. My current research _vision_ is the foll
 - By _intuitive_, I mean cognitive ergonomic, matching tool usage with human cognition such that "what you mean is what you will get" (WYMIWYG).
 - And, by _practical_, I mean scalable to real-world programming that often involves large-scale codebases and data. -->
 
-To that end, I adopt the **human-centered** approach to design programming environments: 
+To that end, I adopt the **human-centered** approach to design programming assistants: 
 - I use evidence from cognitive science and empirical investigations to derive the design space of a programming tool; and
 - I work with potential users of a programming tool to refine the design space and to iterate on existing designs.
 
 <!-- I believe that under different _contexts_ of programming (e.g., debugging vs. authoring, functional vs. imperative), programmers adapt their programming strategies to the corresponding contexts.  -->
-I believe that **comprehension** is key to the successful execution of many programming tasks (e.g., debugging, refactoring), and my goal is to develop programming tools that help programmers understand the information presented to them in order to be more effective with other programming tasks.
+I believe that **comprehension** is key to the successful execution of many programming tasks (e.g., debugging, refactoring). My goal is to develop programming tools that help programmers understand the information presented to them, let it be program execution or code suggestions, in order to be more effective with other programming tasks.
 <!-- My research concerns **cognitive ergonomics in programming systems**, and my goal is to develop context-specific programming tools that suit well with programmer strategies. -->
 <!-- I incorporate potential users of my work early in the design process through **need-finding** and **participatory design**.  -->
 
@@ -61,17 +62,16 @@ I believe that **comprehension** is key to the successful execution of many prog
 
 Recent Projects
 ------
-- [LEAP](/projects/): Live Exploration of AI-generated Programs.
-- [Functional Debugging](/projects/): designing Haskell debugging support backed by empirical evidence.
-<!-- - [Live Synthesis Recognition](/projects/): live programming for the recognition of synthesized code. -->
-- [Step'n'Tune](/projects/): connecting code with output in interactive GUI applications, _with liveness_.
-- [Online Z3 Guide](/projects/): rise4fun is back! Now serving Z3 as the first customer.
+<!-- - [LEAP](/projects/): Live Exploration of AI-generated Programs. -->
+- [Functional Debugging](/projects/): evidence-driven functional debugging support.
+- [Debugging in-Flow](/projects/): debugging via record/replay and live programming.
+- [Online Z3 Guide](/projects/): online experience for symbolic logic modeling.
 <!-- - PBUnit: a live programming environment with built-in support for unit testing and example-centric programming. -->
 <!-- - [Live Rust](/projects/): a Live Programming environment for Rust ownership and lifetimes. -->
 <!-- - [Rust](/projects/): better Rust error reporting on lifetimes and ownerships. -->
 <!-- - [SnipPy+](/projects/): an uninterrupted live programming-by-example synthesizer. -->
 
-Please refer to the [Projects](/projects/) tab for a full list of my projects (and a flavor for the kind of research I'm interested in).
+The [Projects](/projects/) tab shows a full list of my projects.
 
 <!-- Recent Publications [Full List of Publications]()
 ======

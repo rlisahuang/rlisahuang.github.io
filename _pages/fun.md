@@ -12,9 +12,9 @@ redirect_from:
 ## Music
 **[My SoundCloud](https://soundcloud.com/ruanqianqian-huang)**
 
-- Recently playing: [Goldberg Variations: Aria by J. S. Bach](https://www.youtube.com/watch?v=55hk75OgWDg), [Sonata No. 17 "Tempest" by Beethoven](https://www.youtube.com/watch?v=kFBrjLzrIGI)
+- Recently playing: [Ballade No. 1 by Frédéric Chopin](https://youtu.be/BSFNl4roGlI), [Goldberg Variations by J. S. Bach](https://www.youtube.com/watch?v=55hk75OgWDg), [Sonata No. 17 "Tempest" by Beethoven](https://www.youtube.com/watch?v=kFBrjLzrIGI)
 
-- Comfort zone: classical piano (9 + 1 years), classical flute (8 years), baroque flute (2 years)
+- Comfort zone: classical piano (9 + 2 years), classical flute (8 years), baroque flute (2 years)
 
 - Experimenting: jazz piano, jamming, synthesizer
 
@@ -43,4 +43,4 @@ I _love_ learning languages.
 
 - Ongoing interests: weight-lifting, hiking
 - Also good at: archery
-- Attempted but failed: figure skating
+- Not-so-good but still trying: figure skating
