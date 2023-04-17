@@ -8,9 +8,12 @@ author_profile: true
 
 **Ruanqianqian (Lisa) Huang**, Ayana Monroe, Sorin Lerner, Peli de Halleux and Nikolaj Bjørner. In preparation. -->
 
+### [Exploring AI-Generated Code Suggestions with Live Programming](/publications/)
+
+**Ruanqianqian (Lisa) Huang**, Kasra Ferdowsi, Michael James, Nadia Polikarpova, and Sorin Lerner. Under review.
 ### [Visualizing Code-Behavior Correspondences in Event-Driven Programming](/publications/)
 
-**Ruanqianqian (Lisa) Huang** and Sorin Lerner. In submission.
+**Ruanqianqian (Lisa) Huang**, Philip Guo, and Sorin Lerner. Under review.
 
 <h3><a href="/files/plateau_23.pdf" target="_blank">How do Haskell programmers debug?</a></h3>
 
