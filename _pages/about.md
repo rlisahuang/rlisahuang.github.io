@@ -8,6 +8,11 @@ redirect_from:
   - /home/
   - /home.html
 ---
+
+_Last updated: September 2023_
+
+
+
 My name is Lisa. I am excited by programming languages (PL), human-computer interaction (HCI), and cognitive science. 
 
 I am a PhD candidate studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
@@ -62,7 +67,7 @@ To that end, I adopt the **human-centered** approach to design programming assis
 Recent Projects
 ------
 ### Paradigms and Tools
-- [Interaction Model in Synthesis](/projects/): exploring AI-generated code with live programming.
+- [Validation of AI-Generated Code](/projects/): validating AI-generated code with live programming.
 <!-- - [Functional Debugging](/projects/): evidence-driven functional debugging support. -->
 - [Debugging GUI Applications](/projects/): debugging via record/replay and live programming.
 - [Education in Logic Modeling](/projects/): web experience for teaching and learning logic modeling.
@@ -76,6 +81,7 @@ Recent Projects
 - [Live Programming in Education](/projects/): evaluating the impact of using live programming in CS1.
 
 The [Projects](/projects/) tab shows a full list of my projects.
+
 
 <!-- Recent Publications [Full List of Publications]()
 ======
