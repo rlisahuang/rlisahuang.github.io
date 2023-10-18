@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publications and Manuscripts"
 permalink: /publications/
 author_profile: true
 ---
@@ -8,16 +8,16 @@ author_profile: true
 
 **Ruanqianqian (Lisa) Huang**, Ayana Monroe, Sorin Lerner, Peli de Halleux and Nikolaj Bjørner. In preparation. -->
 
-### [Exploring AI-Generated Code Suggestions with Live Programming](/publications/)
+<!-- ### [Exploring AI-Generated Code Suggestions with Live Programming](/publications/)
 
-**Ruanqianqian (Lisa) Huang**, Kasra Ferdowsi, Michael James, Nadia Polikarpova, and Sorin Lerner. Under review.
-### [Visualizing Code-Behavior Correspondences in Event-Driven Programming](/publications/)
+**Ruanqianqian (Lisa) Huang**, Kasra Ferdowsi, Michael James, Nadia Polikarpova, and Sorin Lerner. Under review. -->
+<h3><a href="/files/unfold.pdf" target="_blank">Unfolding State Changes via Live State-First Debugging</a></h3>
 
-**Ruanqianqian (Lisa) Huang**, Philip Guo, and Sorin Lerner. Under review.
+**Ruanqianqian (Lisa) Huang**, Philip Guo, and Sorin Lerner. To appear in _the ninth workshop live programming (LIVE '23)_.
 
 <h3><a href="/files/plateau_23.pdf" target="_blank">How do Haskell programmers debug?</a></h3>
 
-**Ruanqianqian (Lisa) Huang**, Elizaveta Pertseva, Michael Coblenz, and Sorin Lerner. To appear in _the 13th annual workshop on the intersection of HCI and PL (PLATEAU '23)_.
+**Ruanqianqian (Lisa) Huang**, Elizaveta Pertseva, Michael Coblenz, and Sorin Lerner. In _the 13th annual workshop on the intersection of HCI and PL (PLATEAU '23)_.
 
 <h3><a href="/files/research_exam_report.pdf" target="_blank">Towards Live Programming for Interactive GUI Applications</a></h3>
 
