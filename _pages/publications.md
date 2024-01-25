@@ -1,19 +1,19 @@
 ---
 layout: archive
-title: "Publications and Manuscripts"
+title: "Publications and Artifacts"
 permalink: /publications/
 author_profile: true
 ---
-<!-- ### [Improving the Teaching and Learning of Symbolic Logic Solving via the Web](/publications/)
 
-**Ruanqianqian (Lisa) Huang**, Ayana Monroe, Sorin Lerner, Peli de Halleux and Nikolaj Bjørner. In preparation. -->
+<span style="color:grey">_\* equal contribution_</span>
 
-<!-- ### [Exploring AI-Generated Code Suggestions with Live Programming](/publications/)
+### Validating AI-Generated Code with Live Programming 
 
-**Ruanqianqian (Lisa) Huang**, Kasra Ferdowsi, Michael James, Nadia Polikarpova, and Sorin Lerner. Under review. -->
+Kasra Ferdowsi\*, Ruanqianqian (Lisa) Huang\*, Michael James, Nadia Polikarpova, and Sorin Lerner. To appear in _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24)_. ([earlier version](https://arxiv.org/abs/2306.09541))
+
 <h3><a href="/files/unfold.pdf" target="_blank">Unfolding State Changes via Live State-First Debugging</a></h3>
 
-**Ruanqianqian (Lisa) Huang**, Philip Guo, and Sorin Lerner. To appear in _the ninth workshop live programming (LIVE '23)_.
+**Ruanqianqian (Lisa) Huang**, Philip Guo, and Sorin Lerner. In _the ninth workshop live programming (LIVE '23)_.
 
 <h3><a href="/files/plateau_23.pdf" target="_blank">How do Haskell programmers debug?</a></h3>
 

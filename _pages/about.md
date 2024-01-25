@@ -9,13 +9,13 @@ redirect_from:
   - /home.html
 ---
 
-_Last updated: September 2023_
+_Last updated: January 2024_
 
 
 
 My name is Lisa. I am excited by programming languages (PL), human-computer interaction (HCI), and cognitive science. 
 
-I am a PhD candidate studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
+I am a PhD Candidate studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
 where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on PL and HCI.
 
@@ -111,3 +111,8 @@ The [Projects](/projects/) tab shows a full list of my projects.
 * May 31, 2020: I graduated from Wellesley College with Summa Cum Laude.
 * May 28, 2020: I received the Academic Achievement Award in Computer Science from the Dept. of Computer Science at Wellesley College.
 * May 19, 2020: I defended my undergraduate thesis and received Honors in Computer Science. -->
+
+
+Teaching
+------
+I am passionate about teaching undergraduate courses and mentoring the future generations of graduate students. The [Teaching](/teaching/) tab demonstrates my full record of teaching/TAing/tutoring experience since college.
