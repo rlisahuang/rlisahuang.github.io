@@ -9,7 +9,7 @@ author_profile: true
 
 ### Validating AI-Generated Code with Live Programming 
 
-Kasra Ferdowsi\*, Ruanqianqian (Lisa) Huang\*, Michael James, Nadia Polikarpova, and Sorin Lerner. To appear in _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24)_. ([earlier version](https://arxiv.org/abs/2306.09541))
+Kasra Ferdowsi\*, Ruanqianqian (Lisa) Huang\*, Michael James, Nadia Polikarpova, and Sorin Lerner. To appear in _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24)_. ([preprint](https://arxiv.org/abs/2306.09541))
 
 <h3><a href="/files/unfold.pdf" target="_blank">Unfolding State Changes via Live State-First Debugging</a></h3>
 
