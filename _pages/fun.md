@@ -16,7 +16,7 @@ redirect_from:
 
 - Instruments: classical piano (2001-2012, 2021-now), classical flute (2010-2018, 2023-now), baroque flute (2018-2020)
 
-- Orgs: middle & high school orchestra, college chamber music society
+- Ensembles: middle & high school orchestra, college chamber music society
 
 - Last personal recital: 04/2019 (baroque flute)
 
@@ -24,14 +24,12 @@ redirect_from:
 
 - Last competition: 10/2013 (modern flute)
 
-- Casual interests: jazz piano, jamming, synthesizer
-
-- Soft spot: R&B (Hikaru Utada / 宇多田ヒカル), rock (ONE OK ROCK)
+- Casual interests: jazz piano, jamming, synthesizer, R&B (Hikaru Utada), rock (ONE OK ROCK)
 
 
 ## Sports
 
-- Ongoing interests: figure skating (Learn-to-Skate Pre-freeskate), hiking
+- Ongoing interests: figure skating, hiking
 - Also good at: archery
 
 

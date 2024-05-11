@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Ruanqianqian Huang"
   avatar           : "profile.jpeg"
-  bio              : "Building programming tools for tomorrow."
-  location         : "La Jolla, CA"
+  # bio              : "Building programming tools for tomorrow."
+  # location         : "La Jolla, CA"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=qBtrYu8AAAAJ"
@@ -97,14 +97,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "rlisahuang"
+  # github           : "rlisahuang"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  # orcid            : "https://orcid.org/0000-0002-4242-419X"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
