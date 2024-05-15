@@ -14,8 +14,9 @@ _Last updated: May 2024_
 
 
 My name is Lisa. I am a PhD Candidate studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
+I have spent summers at [Apple](https://machinelearning.apple.com) and [Microsoft Research](https://www.microsoft.com/en-us/research/group/research-software-engineering-rise/) researching HCI, programming languages, and education.
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
-where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) on PL and HCI.
+where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/). 
 
 I study programmers of all kinds and build programming systems for them. How do we incorporate more human factors into designing programming systems? How can programming interfaces better support creativity and communication of thoughts? How do we build more _active_ programming assistants that always align with the user's workflow? Read more about my [Research](/research/) vision and recent [Projects](/projects/) and [Publications](/publications/) along these lines.
 
