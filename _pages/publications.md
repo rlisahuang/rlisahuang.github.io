@@ -9,6 +9,10 @@ author_profile: true
 
 # Conference Papers
 
+<h3><a href="/files/unfold_vlhcc24.pdf" target="_blank">Unfold: Enabling Live Programming for Debugging GUI Applications</a></h3>
+
+**Ruanqianqian (Lisa) Huang**, Philip J. Guo, and Sorin Lerner. To appear in _2024 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)_, Liverpool, UK, 2024.
+
 <h3><a href="/files/leap_chi24.pdf" target="_blank">Validating AI-Generated Code with Live Programming</a></h3>
 
 Kasra Ferdowsi\*, **Ruanqianqian (Lisa) Huang**\*, Michael B. James, Nadia Polikarpova, and Sorin Lerner. In _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24)_, Honolulu, HI, USA, 2024.
