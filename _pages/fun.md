@@ -12,7 +12,7 @@ redirect_from:
 ## Music
 **[My SoundCloud](https://soundcloud.com/ruanqianqian-huang)**
 
-- Recently playing: [Ballade No. 1 by Frédéric Chopin](https://youtu.be/BSFNl4roGlI), [Goldberg Variations by J. S. Bach](https://www.youtube.com/watch?v=55hk75OgWDg), [Etude for Piano, Op.76 No.2 by Sibelius](https://www.youtube.com/watch?v=9Qt1HY5p3Aw), [Concertino for Flute by Chaminade](https://www.youtube.com/watch?v=JQDTVDmbEpA), some Chopin preludes
+- Recently playing: [Ballade No. 1 by Frédéric Chopin](https://youtu.be/BSFNl4roGlI), [Etude for Piano, Op.76 No.2 by Sibelius](https://www.youtube.com/watch?v=9Qt1HY5p3Aw), [Concertino for Flute by Chaminade](https://www.youtube.com/watch?v=JQDTVDmbEpA), some Chopin preludes and nocturnes
 
 - Instruments: classical piano (2001-2012, 2021-now), classical flute (2010-2018, 2023-now), baroque flute (2018-2020)
 
@@ -29,7 +29,7 @@ redirect_from:
 
 ## Sports
 
-- Ongoing interests: figure skating, hiking
+- Ongoing interests: figure skating (USFS freeskate 3), hiking
 - Also good at: archery
 
 

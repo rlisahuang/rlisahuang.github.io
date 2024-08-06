@@ -9,7 +9,7 @@ redirect_from:
   - /home.html
 ---
 
-_Last updated: May 2024_
+_Last updated: August 2024_
 
 
 
@@ -20,7 +20,9 @@ where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~ftur
 
 I study programmers of all kinds and build programming systems for them. How do we incorporate more human factors into designing programming systems? How can programming interfaces better support creativity and communication of thoughts? How do we build more _active_ programming assistants that always align with the user's workflow? Read more about my [Research](/research/) vision and recent [Projects](/projects/) and [Publications](/publications/) along these lines.
 
-Besides research, I am passionate about [Teaching](/teaching/) Computer Science, from introductory programming to advanced research seminars. I also have lots of [Fun](/fun/) via non-CS activities. 
+Besides research, I am passionate about [Teaching](/teaching/) Computer Science, from introductory programming to upper-level research seminars. I received the Doctoral Excellence in Teaching Award from the UCSD CSE department in 2024.
+
+Outside of my day job as a computer scientist, I am an amateur figure skater, pianist, and flutist.
 
 
 
