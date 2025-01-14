@@ -9,7 +9,7 @@ redirect_from:
   - /home.html
 ---
 
-_Last updated: August 2024_
+_Last updated: January 2025_
 
 
 
