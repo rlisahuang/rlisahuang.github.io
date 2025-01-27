@@ -9,13 +9,17 @@ author_profile: true
 
 # Conference Papers
 
+<h3><a href="/files/grounded_jupyter_icse25.pdf" target="_blank">How Scientists Use Jupyter Notebooks: Goals, Quality Attributes, and Opportunities</a></h3>
+
+**Ruanqianqian (Lisa) Huang**, Savitha Ravi, Michael He, Boyu Tian, Sorin Lerner, and Michael Coblenz. To appear in _Proceedings of the IEEE/ACM 47th International Conference on Software Engineering (ICSE '25)_, Ottawa, Canada, 2025.
+
 <h3><a href="/files/unfold_vlhcc24.pdf" target="_blank">Unfold: Enabling Live Programming for Debugging GUI Applications</a></h3>
 
-**Ruanqianqian (Lisa) Huang**, Philip J. Guo, and Sorin Lerner. To appear in _2024 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)_, Liverpool, UK, 2024.
+**Ruanqianqian (Lisa) Huang**, Philip J. Guo, and Sorin Lerner. In _2024 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)_, Liverpool, UK, 2024.
 
 <h3><a href="/files/leap_chi24.pdf" target="_blank">Validating AI-Generated Code with Live Programming</a></h3>
 
-Kasra Ferdowsi\*, **Ruanqianqian (Lisa) Huang**\*, Michael B. James, Nadia Polikarpova, and Sorin Lerner. In _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24)_, Honolulu, HI, USA, 2024.
+**Ruanqianqian (Lisa) Huang**\*, Kasra Ferdowsi\*, Michael B. James, Nadia Polikarpova, and Sorin Lerner. In _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24)_, Honolulu, HI, USA, 2024.
 
 
 <h3><a href="/files/PB4Edu_SIGCSE22.pdf" target="_blank">Investigating the Impact of Using a Live Programming Environment in a CS1 Course</a></h3>
