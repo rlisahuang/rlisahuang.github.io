@@ -20,7 +20,7 @@ redirect_from:
 
 - Last personal recital: 04/2019 (baroque flute)
 
-- Last orchestral/chamber concert: 12/2019 (baroque flute, chamber music)
+- Last orchestral/chamber concert: 10/2024 (flute, chamber music)
 
 - Last competition: 10/2013 (modern flute)
 
@@ -29,7 +29,7 @@ redirect_from:
 
 ## Sports
 
-- Ongoing interests: figure skating (USFS freeskate 3), hiking
+- Ongoing interests: figure skating (USFS Adult Pre-Bronze), ballet, hiking
 - Also good at: archery
 
 
