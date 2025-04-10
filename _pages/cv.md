@@ -9,11 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-_Updated in Jan. 2025_: 
-
-<a href="/files/rh_resume.pdf" target="_blank">Resumé</a>
-
-<a href="/files/rh_cv.pdf" target="_blank">Full CV</a>
+Available upon request
 
 <!-- Education
 ======
