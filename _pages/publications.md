@@ -9,9 +9,13 @@ author_profile: true
 
 # Conference Papers
 
+<h3><a href="/files/stg_ijcai25.pdf" target="_blank">Synthesizing Composite Hierarchical Structure from Symbolic Music Corpora</a></h3>
+
+Ilana Shapiro, **Ruanqianqian (Lisa) Huang**, Zachary Novack, Cheng-i Wang, Hao-Wen Dong, Taylor Berg-Kirkpatrick, Shlomo Dubnov, and Sorin Lerner. To appear in _Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence (IJCAI '25)_, Montréal, Canada, 2025.
+
 <h3><a href="/files/grounded_jupyter_icse25.pdf" target="_blank">How Scientists Use Jupyter Notebooks: Goals, Quality Attributes, and Opportunities</a></h3>
 
-**Ruanqianqian (Lisa) Huang**, Savitha Ravi, Michael He, Boyu Tian, Sorin Lerner, and Michael Coblenz. To appear in _Proceedings of the IEEE/ACM 47th International Conference on Software Engineering (ICSE '25)_, Ottawa, Canada, 2025.
+**Ruanqianqian (Lisa) Huang**, Savitha Ravi, Michael He, Boyu Tian, Sorin Lerner, and Michael Coblenz. In _Proceedings of the IEEE/ACM 47th International Conference on Software Engineering (ICSE '25)_, Ottawa, Canada, 2025.
 
 <h3><a href="/files/unfold_vlhcc24.pdf" target="_blank">Unfold: Enabling Live Programming for Debugging GUI Applications</a></h3>
 
@@ -44,6 +48,11 @@ author_profile: true
 
 
 # Reports and Manuscripts
+
+<h3><a href="/files/z3guide_msr25.pdf" target="_blank">Z3Guide: A Scalable, Student-Centered, and Extensible Educational Environment for Logic Modeling</a></h3>
+
+**Ruanqianqian (Lisa) Huang**, Ayana Monroe, Jonathan "Peli" de Halleux, Sorin Lerner, and Nikolaj Bjørner. Microsoft Research Technical Report MSR-TR-2025-36. 2025.
+
 
 <h3><a href="/files/research_exam_report.pdf" target="_blank">Towards Live Programming for Interactive GUI Applications</a></h3>
 
