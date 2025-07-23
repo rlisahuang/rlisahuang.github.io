@@ -1,8 +1,8 @@
 ---
-title: "<a href='https://sites.google.com/eng.ucsd.edu/cse8afall2022/home' target='_blank'>CSE 8A: Intro to Programming in Python</a>"
+title: "<a href='https://sites.google.com/ucsd.edu/cse8afall2024/home' target='_blank'>CSE 8A: Intro to Programming in Python</a>"
 collection: teaching
 type: "Teaching Assistant"
-permalink: /teaching/2022-fall-cse8a
+permalink: /teaching/2024-fall-cse8a
 venue: "Dept. of Computer Science and Engineering, UC San Diego"
 date: 2024-09-26
 location: "La Jolla, CA"

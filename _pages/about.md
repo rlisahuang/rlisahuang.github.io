@@ -9,7 +9,7 @@ redirect_from:
   - /home.html
 ---
 
-_Last updated: January 2025_
+_Last updated: Jul. 2025_
 
 
 
@@ -18,7 +18,12 @@ I have spent summers at [Apple](https://machinelearning.apple.com) and [Microsof
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
 where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/). 
 
-I study programmers of all kinds and build programming systems for them. How do we incorporate more human factors into designing programming systems? How can programming interfaces better support creativity and communication of thoughts? How do we build more _active_ programming assistants that always align with the user's workflow? Read more about my [Research](/research/) vision and recent [Projects](/projects/) and [Publications](/publications/) along these lines.
+I study programmers of all kinds and build programming systems for them. 
+<!-- How do we incorporate more human factors into designing programming systems? How can programming interfaces better support creativity and communication of thoughts? How do we build more _active_ programming assistants that always align with the user's workflow?  -->
+How do we incorporate more human factors into designing programming systems?
+How should programming interfaces adapt to updates in programming workflows while accounting for domain-specific user needs?
+<!-- Read more about my [Research](/research/) vision and recent [Projects](/projects/) and [Publications](/publications/) along these lines. -->
+Read more about my [Publications](/publications/) along these lines.
 
 Besides research, I am passionate about [Teaching](/teaching/) Computer Science, from introductory programming to upper-level research seminars. I received the Doctoral Excellence in Teaching Award from the UCSD CSE department in 2024.
 
