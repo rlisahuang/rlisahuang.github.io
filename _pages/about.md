@@ -29,7 +29,7 @@ Besides research, I am passionate about [Teaching](/teaching/) Computer Science,
 
 Outside of my day job as a computer scientist, I am an amateur figure skater, pianist, and flutist.
 
-
+**I’m on the job market this year! Please don’t hesitate to get in touch if you have a position to fill. I am interested in both tenure-track academic positions (SLACs & teaching-focused) and industry positions.**
 
 
 <!-- 
