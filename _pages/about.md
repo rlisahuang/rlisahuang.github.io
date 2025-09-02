@@ -9,7 +9,7 @@ redirect_from:
   - /home.html
 ---
 
-_Last updated: Jul. 2025_
+**I’m on the job market this year! Please don’t hesitate to get in touch if you have a position to fill. I am interested in both tenure-track academic positions (SLACs & teaching-focused) and industry positions.**
 
 
 
@@ -28,8 +28,6 @@ Read more about my [Publications](/publications/) along these lines.
 Besides research, I am passionate about [Teaching](/teaching/) Computer Science, from introductory programming to upper-level research seminars. I received the Doctoral Excellence in Teaching Award from the UCSD CSE department in 2024.
 
 Outside of my day job as a computer scientist, I am an amateur figure skater, pianist, and flutist.
-
-**I’m on the job market this year! Please don’t hesitate to get in touch if you have a position to fill. I am interested in both tenure-track academic positions (SLACs & teaching-focused) and industry positions.**
 
 
 <!-- 
