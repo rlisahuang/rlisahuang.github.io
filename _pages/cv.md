@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-_Updated in Jul. 2025_: 
+_Updated in Sep. 2025_: 
 
 <a href="/files/rh_cv.pdf" target="_blank">Full CV</a>
 
