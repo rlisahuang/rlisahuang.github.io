@@ -17,16 +17,22 @@ Ilana Shapiro, **Ruanqianqian (Lisa) Huang**, Zachary Novack, Cheng-i Wang, Hao-
 
 **Ruanqianqian (Lisa) Huang**, Savitha Ravi, Michael He, Boyu Tian, Sorin Lerner, and Michael Coblenz. In _Proceedings of the IEEE/ACM 47th International Conference on Software Engineering (ICSE '25)_, Ottawa, Canada, 2025.
 
-<h3><a href="/files/unfold_vlhcc24.pdf" target="_blank">Unfold: Enabling Live Programming for Debugging GUI Applications</a></h3>
+<h3><a href="/files/unfold_vlhcc24.pdf" target="_blank">Unfold: Enabling Live Programming for Debugging GUI Applications</a></h3> 
+
+[Tool Demo](https://youtu.be/qM6voCNccrA) | [Presentation](https://youtu.be/Qir-B50QFc0) | [Code](https://github.com/rlisahuang/unfold) 
 
 **Ruanqianqian (Lisa) Huang**, Philip J. Guo, and Sorin Lerner. In _2024 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)_, Liverpool, UK, 2024.
 
 <h3><a href="/files/leap_chi24.pdf" target="_blank">Validating AI-Generated Code with Live Programming</a></h3>
 
+[Tool Demo](https://youtu.be/uvourPE9uWU) | [Presentation](https://youtu.be/5NmrEaC37c0) | [Code](https://github.com/UCSD-PL/vscode/tree/leap)
+
 **Ruanqianqian (Lisa) Huang**\*, Kasra Ferdowsi\*, Michael B. James, Nadia Polikarpova, and Sorin Lerner. In _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24)_, Honolulu, HI, USA, 2024.
 
 
 <h3><a href="/files/PB4Edu_SIGCSE22.pdf" target="_blank">Investigating the Impact of Using a Live Programming Environment in a CS1 Course</a></h3>
+
+[Tool Demo](https://youtu.be/eXBXz23QYUA) | [Presentation](https://youtu.be/Y1V6oXlL3U4?si=Ce3e4opnefbeQen6) | [Code](https://github.com/ucsd-pl/vscode) 
 
 **Ruanqianqian (Lisa) Huang**, Kasra Ferdowsi, Ana Selvaraj, Adalbert Gerald Soosai Raj, and Sorin Lerner. In _Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE ’22)_, Providence, RI, USA, 2022.
 

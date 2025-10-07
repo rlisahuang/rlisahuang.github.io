@@ -5,8 +5,9 @@ excerpt: "AI-generated code is helpful as building blocks towards a complete pro
 collection: portfolio
 paper: /files/leap_chi24.pdf
 code: https://github.com/KasraF/LEAP-Artifact/
-demo: https://leap.goto.ucsd.edu
-image: leap.png
+demo: https://www.youtube.com/embed/uvourPE9uWU
+talk: https://youtu.be/5NmrEaC37c0
+# image: leap.png
 ---
 
 Coming soon

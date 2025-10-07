@@ -59,13 +59,14 @@
         <small>[<a href="{{ post.talk }}" style="font-size: 16px;">talk</a>]</small>
       {% endif %}
 
-      {% if post.demo %}
-        <small>[<a href="{{ post.demo }}" style="font-size: 16px;">demo</a>]</small>
+      {% if post.web %}
+        <small>[<a href="{{ post.web }}" style="font-size: 16px;">product</a>]</small>
       {% endif %}
 
       {% if post.code %}
         <small>[<a href="{{ post.code }}" style="font-size: 16px;">code</a>]</small>
       {% endif %}
+
 
     </h2>
 
@@ -79,7 +80,13 @@
         {% else %}
           "{{ post.image | prepend: "/images/" }}"
         {% endif %}
-        alt="" width="300px" style="position:relative; top:20%;">
+        alt="" width="300px"style="position:relative; top:20%;">
+    </div>
+    {% endif %}
+
+    {% if post.demo %}
+    <div style="width:300px; height:200px; overflow: hidden">
+      <iframe src="{{ post.demo }}" allowfullscreen style="width:300px; height:200px; overflow:hidden;"></iframe>
     </div>
     {% endif %}
     

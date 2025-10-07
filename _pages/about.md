@@ -24,6 +24,7 @@ I study programmers of all kinds and build programming systems for them.
 How should programming interfaces adapt to updates in programming workflows while accounting for domain-specific user needs?
 <!-- Read more about my [Research](/research/) vision and recent [Projects](/projects/) and [Publications](/publications/) along these lines. -->
 Read more about my [Publications](/publications/) along these lines.
+<!-- , or check out demos in [Projects](/projects/). -->
 
 Besides research, I am passionate about [Teaching](/teaching/) Computer Science, from introductory programming to upper-level research seminars. I received the **Doctoral Excellence in Teaching Award** from the UCSD CSE department in 2024.
 

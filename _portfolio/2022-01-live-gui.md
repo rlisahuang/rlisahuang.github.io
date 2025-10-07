@@ -5,8 +5,9 @@ excerpt: "GUI applications often preserve complex behavior building upon at leas
 collection: portfolio
 paper: /files/unfold_vlhcc24.pdf
 code: https://github.com/rlisahuang/unfold-tool
-demo:
-image: snt.png
+talk: https://youtu.be/Qir-B50QFc0
+demo: https://www.youtube.com/embed/qM6voCNccrA
+# image: snt.png
 ---
 
 Coming soon
