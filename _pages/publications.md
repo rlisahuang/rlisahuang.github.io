@@ -53,7 +53,12 @@ Ilana Shapiro, **Ruanqianqian (Lisa) Huang**, Zachary Novack, Cheng-i Wang, Hao-
 
 
 
-# Reports and Manuscripts
+# Reports and Preprints
+
+<h3><a href="/files/agents_study_25.pdf" target="_blank">Professional Software Developers Don’t Vibe, They Control: AI Agent Use for Coding in 2025</a></h3>
+
+**Ruanqianqian (Lisa) Huang**, Avery Reyna, Sorin Lerner, Haijun Xia, and Brian Hempel. 2025.
+
 
 <h3><a href="/files/z3guide_msr25.pdf" target="_blank">Z3Guide: A Scalable, Student-Centered, and Extensible Educational Environment for Logic Modeling</a></h3>
 
