@@ -9,11 +9,10 @@ redirect_from:
   - /home.html
 ---
 
-**I’m on the job market this year! Please don’t hesitate to get in touch if you have a position to fill. I am interested in both tenure-track academic positions (SLACs & teaching-focused) and industry positions.**
 
 
 
-My name is Lisa. I am a PhD Candidate studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
+My name is Lisa. I am a final-year PhD Candidate studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
 I have spent summers at [Apple](https://machinelearning.apple.com) and [Microsoft Research](https://www.microsoft.com/en-us/research/group/research-software-engineering-rise/) researching AI, HCI, programming systems, and education, building a [product](https://microsoft.github.io/z3guide/) along the way.
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
 where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) and [Takis Metaxas](https://www.wellesley.edu/people/panagiotis-metaxas).
