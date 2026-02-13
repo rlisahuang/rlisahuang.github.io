@@ -9,6 +9,10 @@ author_profile: true
 
 # Conference Papers
 
+<h3><a href="/files/tidynote_chi26.pdf" target="_blank">Tidynote: Always-Clear Notebook Authoring</a></h3>
+
+**Ruanqianqian (Lisa) Huang**, Brian Hempel, Yining Cao, James D. Hollan, Haijun Xia, and Sorin Lerner. In _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’26)_, Barcelona, Spain, 2026.
+
 <h3><a href="/files/stg_ijcai25.pdf" target="_blank">Synthesizing Composite Hierarchical Structure from Symbolic Music Corpora</a></h3>
 
 Ilana Shapiro, **Ruanqianqian (Lisa) Huang**, Zachary Novack, Cheng-i Wang, Hao-Wen Dong, Taylor Berg-Kirkpatrick, Shlomo Dubnov, and Sorin Lerner. To appear in _Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence (IJCAI '25)_, Montréal, Canada, 2025.
