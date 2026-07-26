@@ -4,11 +4,11 @@
 /*
  *  rlisahuang.com — clean one-page theme
  *  Fresh minimal stylesheet (replaces the Minimal Mistakes styles).
- *  Single centered column, top text-nav, auto light/dark.
+ *  Single centered column, top text-nav, light by default with a dark toggle.
  */
 
 /* ------------------------------------------------------------------ *
- *  Design tokens (light) + dark-mode overrides via prefers-color-scheme
+ *  Design tokens — light by default, dark only when opted into
  * ------------------------------------------------------------------ */
 @mixin theme-light {
   --bg:          #ffffff;
@@ -48,16 +48,12 @@
   --font-head: var(--font-body);
 }
 
-/* Auto: follow the OS preference when the user hasn't chosen. */
-@media (prefers-color-scheme: dark) {
-  :root { @include theme-dark; }
-}
-
-/* Manual override (set via the header toggle) always wins over the OS default. */
+/* Light is the default for everyone, regardless of the OS preference.
+   Dark is opt-in only, via the header toggle. */
 :root[data-theme="light"] { @include theme-light; }
 :root[data-theme="dark"]  { @include theme-dark; }
 
-html { color-scheme: light dark; scroll-behavior: smooth; }
+html { color-scheme: light; scroll-behavior: smooth; }
 :root[data-theme="light"] { color-scheme: light; }
 :root[data-theme="dark"]  { color-scheme: dark; }
 

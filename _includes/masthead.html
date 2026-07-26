@@ -30,9 +30,7 @@
     if (!btn) return;
     var icon = btn.querySelector('i');
     function current() {
-      var t = document.documentElement.getAttribute('data-theme');
-      if (t) return t;
-      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
     }
     function setIcon(t) { icon.className = t === 'dark' ? 'fas fa-sun' : 'fas fa-moon'; }
     function apply(t) {

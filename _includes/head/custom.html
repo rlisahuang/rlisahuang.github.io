@@ -2,15 +2,15 @@
 
 <!-- start custom head snippets -->
 
-<!-- Apply saved light/dark choice before first paint (avoids flash) -->
+<!-- Apply the saved light/dark choice before first paint (avoids flash).
+     Light is the default when nothing has been saved. -->
 <script>
   (function () {
+    var t = 'light';
     try {
-      var t = localStorage.getItem('theme');
-      if (t === 'light' || t === 'dark') {
-        document.documentElement.setAttribute('data-theme', t);
-      }
+      if (localStorage.getItem('theme') === 'dark') { t = 'dark'; }
     } catch (e) {}
+    document.documentElement.setAttribute('data-theme', t);
   })();
 </script>
 
