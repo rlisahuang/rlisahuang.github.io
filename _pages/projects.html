@@ -2,13 +2,96 @@
 layout: archive
 title: "Projects"
 permalink: /projects/
-author_profile: true
 ---
 
 {% include base_path %}
 
+{%- comment -%} Distinct categories, first-appearance order (delimiter-accumulator) {%- endcomment -%}
+{%- assign cat_order = "|" -%}
+{%- for post in site.portfolio reversed -%}
+  {%- if post.category -%}
+    {%- capture ck %}|{{ post.category }}|{% endcapture -%}
+    {%- unless cat_order contains ck %}{% assign cat_order = cat_order | append: post.category | append: "|" %}{% endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign categories = cat_order | split: "|" -%}
 
-{% for post in site.portfolio reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="proj-filter" role="group" aria-label="Filter projects by category">
+  <button type="button" class="is-active" data-filter="all">All</button>
+  {% for c in categories %}{% if c != "" %}<button type="button" data-filter="{{ c | downcase }}">{{ c }}</button>{% endif %}{% endfor %}
+</div>
 
+<div class="projects">
+  {% for post in site.portfolio reversed %}
+  <article class="project-card" data-category="{{ post.category | downcase }}">
+    {% if post.image %}
+      <img class="project-card__media"
+           src="{% if post.image contains '://' %}{{ post.image }}{% else %}{{ base_path }}/images/{{ post.image }}{% endif %}"
+           alt="{{ post.title | escape }}" loading="lazy">
+    {% elsif post.demo %}
+      <iframe class="project-card__media" src="{{ post.demo }}" allowfullscreen loading="lazy"
+              title="{{ post.title | escape }} demo"></iframe>
+    {% else %}
+      <div class="project-card__media project-card__media--placeholder">{{ post.title }}</div>
+    {% endif %}
+    <div class="project-card__body">
+      <h3 class="project-card__title">{{ post.title }}</h3>
+      {% if post.excerpt %}
+      <p class="project-card__desc">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</p>
+      <button type="button" class="project-card__more" aria-expanded="false" hidden>more</button>
+      {% endif %}
+      <div class="project-card__links">
+        {% if post.paper %}<a href="{{ post.paper }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+        {% if post.code %}<a href="{{ post.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+        {% if post.demo %}<a href="{{ post.demo }}" target="_blank" rel="noopener">Demo</a>{% endif %}
+        {% if post.talk %}<a href="{{ post.talk }}" target="_blank" rel="noopener">Talk</a>{% endif %}
+        {% if post.web %}<a href="{{ post.web }}" target="_blank" rel="noopener">Website</a>{% endif %}
+        {% if post.poster %}<a href="{{ post.poster }}" target="_blank" rel="noopener">Poster</a>{% endif %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<script>
+  (function () {
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.projects .project-card'));
+
+    // "more / less" description toggle (skips cards hidden by the filter)
+    cards.forEach(function (card) {
+      var desc = card.querySelector('.project-card__desc');
+      var btn = card.querySelector('.project-card__more');
+      if (!desc || !btn) return;
+      function refresh() {
+        if (desc.offsetParent === null) return;           // card hidden — leave as is
+        if (desc.classList.contains('is-expanded')) return;
+        btn.hidden = desc.scrollHeight - desc.clientHeight <= 2;
+      }
+      btn.addEventListener('click', function () {
+        var expanded = desc.classList.toggle('is-expanded');
+        btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        btn.textContent = expanded ? 'less' : 'more';
+      });
+      window.addEventListener('resize', refresh, { passive: true });
+      card.__refreshMore = refresh;
+      refresh();
+    });
+
+    // Category filter
+    var filter = document.querySelector('.proj-filter');
+    if (filter) {
+      var buttons = Array.prototype.slice.call(filter.querySelectorAll('button'));
+      filter.addEventListener('click', function (e) {
+        var btn = e.target.closest('button');
+        if (!btn) return;
+        var f = btn.getAttribute('data-filter');
+        buttons.forEach(function (b) { b.classList.toggle('is-active', b === btn); });
+        cards.forEach(function (card) {
+          var show = f === 'all' || card.getAttribute('data-category') === f;
+          card.style.display = show ? '' : 'none';
+          if (show && card.__refreshMore) card.__refreshMore();
+        });
+      });
+    }
+  })();
+</script>

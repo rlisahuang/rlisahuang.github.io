@@ -268,6 +268,31 @@ blockquote {
 /* ------------------------------------------------------------------ *
  *  Projects gallery
  * ------------------------------------------------------------------ */
+.proj-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: -0.5rem 0 1.5rem;
+}
+.proj-filter button {
+  padding: 0.3rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text-soft);
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.proj-filter button:hover { border-color: var(--accent); color: var(--accent); }
+.proj-filter button.is-active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 650;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -293,6 +318,7 @@ blockquote {
   background: var(--bg-soft);
   border-bottom: 1px solid var(--border);
 }
+iframe.project-card__media { border: 0; height: auto; }
 .project-card__media--placeholder {
   display: flex;
   align-items: center;
@@ -306,7 +332,33 @@ blockquote {
 }
 .project-card__body { padding: 0.95rem 1.05rem 1.05rem; display: flex; flex-direction: column; gap: 0.4rem; flex: 1 1 auto; }
 .project-card__title { margin: 0; font-size: 1.05rem; }
-.project-card__desc { margin: 0; font-size: 0.92rem; color: var(--text-soft); line-height: 1.55; }
+.project-card__desc {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--text-soft);
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.project-card__desc.is-expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+.project-card__more {
+  align-self: flex-start;
+  margin: 0.15rem 0 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.project-card__more:hover { text-decoration: underline; }
 .project-card__links { margin-top: auto; padding-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.85rem; font-size: 0.86rem; }
 
 /* ------------------------------------------------------------------ *

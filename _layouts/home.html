@@ -36,10 +36,13 @@ layout: default
         {% if site.author.github %}
           <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
         {% endif %}
+        {% if site.author.linkedin %}
+          <li><a href="{{ site.author.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        {% endif %}
         {% if site.author.twitter %}
           <li><a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a></li>
         {% endif %}
-        <li><a href="{{ base_path }}/files/rh_cv.pdf" target="_blank" rel="noopener"><i class="fas fa-file-alt" aria-hidden="true"></i> CV</a></li>
+        <!-- <li><a href="{{ base_path }}/files/rh_cv.pdf" target="_blank" rel="noopener"><i class="fas fa-file-alt" aria-hidden="true"></i> CV</a></li> -->
       </ul>
     </div>
   </section>
