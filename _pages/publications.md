@@ -1,95 +1,71 @@
 ---
 layout: archive
-# title: "Publications and Artifacts"
+title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
 
-<span style="color:grey">_\* equal contribution_</span>
+{% include base_path %}
 
-# Conference Papers
+{% assign pubs = site.publications | sort: "date" | reverse %}
 
-<h3><a href="/files/tidynote_chi26.pdf" target="_blank">Tidynote: Always-Clear Notebook Authoring</a></h3>
+{%- comment -%} Distinct years, newest first (delimiter-accumulator) {%- endcomment -%}
+{%- assign year_order = "|" -%}
+{%- for pub in pubs -%}
+  {%- capture yk %}|{{ pub.year }}|{% endcapture -%}
+  {%- unless year_order contains yk %}{% assign year_order = year_order | append: pub.year | append: "|" %}{% endunless -%}
+{%- endfor -%}
+{%- assign years = year_order | split: "|" -%}
 
-**Ruanqianqian (Lisa) Huang**, Brian Hempel, Yining Cao, James D. Hollan, Haijun Xia, and Sorin Lerner. In _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’26)_, Barcelona, Spain, 2026.
+<div class="pub-layout">
+  <nav class="pub-years" aria-label="Jump to year">
+    {% for y in years %}{% if y != "" %}<a href="#y{{ y }}" data-year="{{ y }}">{{ y }}</a>{% endif %}{% endfor %}
+  </nav>
 
-<h3>Plottery: A Code-Integrated GUI for Matplotlib</h3>
+  <div class="pub-main">
+    {% assign has_equal = pubs | where: "equal_contrib", true %}
+    {% if has_equal.size > 0 %}<p class="pub-note">* Equal contribution</p>{% endif %}
+    <ul class="pub-list">
+      {% assign last_year = "" %}
+      {% for pub in pubs %}
+        {% if pub.year != last_year %}{% assign ys = true %}{% assign last_year = pub.year %}{% else %}{% assign ys = false %}{% endif %}
+        {% include pub-entry.html pub=pub year_start=ys %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-Brian Hempel, **Ruanqianqian (Lisa) Huang**, Devamardeep Hayatpur, Sorin Lerner, and Haijun Xia. To appear in _2026 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)_, Paderborn, Germany, 2026.
-
-<h3><a href="/files/stg_ijcai25.pdf" target="_blank">Synthesizing Composite Hierarchical Structure from Symbolic Music Corpora</a></h3>
-
-Ilana Shapiro, **Ruanqianqian (Lisa) Huang**, Zachary Novack, Cheng-i Wang, Hao-Wen Dong, Taylor Berg-Kirkpatrick, Shlomo Dubnov, and Sorin Lerner. To appear in _Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence (IJCAI '25)_, Montréal, Canada, 2025.
-
-<h3><a href="/files/grounded_jupyter_icse25.pdf" target="_blank">How Scientists Use Jupyter Notebooks: Goals, Quality Attributes, and Opportunities</a></h3>
-
-**Ruanqianqian (Lisa) Huang**, Savitha Ravi, Michael He, Boyu Tian, Sorin Lerner, and Michael Coblenz. In _Proceedings of the IEEE/ACM 47th International Conference on Software Engineering (ICSE '25)_, Ottawa, Canada, 2025.
-
-<h3><a href="/files/unfold_vlhcc24.pdf" target="_blank">Unfold: Enabling Live Programming for Debugging GUI Applications</a></h3> 
-
-[Tool Demo](https://youtu.be/qM6voCNccrA) \|\| [Presentation](https://youtu.be/Qir-B50QFc0) \|\| [Code](https://github.com/rlisahuang/unfold) 
-
-**Ruanqianqian (Lisa) Huang**, Philip J. Guo, and Sorin Lerner. In _2024 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)_, Liverpool, UK, 2024.
-
-<h3><a href="/files/leap_chi24.pdf" target="_blank">Validating AI-Generated Code with Live Programming</a></h3>
-
-[Tool Demo](https://youtu.be/uvourPE9uWU) \|\| [Presentation](https://youtu.be/5NmrEaC37c0) \|\| [Code](https://github.com/UCSD-PL/vscode/tree/leap)
-
-**Ruanqianqian (Lisa) Huang**\*, Kasra Ferdowsi\*, Michael B. James, Nadia Polikarpova, and Sorin Lerner. In _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24)_, Honolulu, HI, USA, 2024.
-
-
-<h3><a href="/files/PB4Edu_SIGCSE22.pdf" target="_blank">Investigating the Impact of Using a Live Programming Environment in a CS1 Course</a></h3>
-
-[Tool Demo](https://youtu.be/eXBXz23QYUA) \|\| [Presentation](https://youtu.be/Y1V6oXlL3U4?si=Ce3e4opnefbeQen6) \|\| [Code](https://github.com/ucsd-pl/vscode) 
-
-**Ruanqianqian (Lisa) Huang**, Kasra Ferdowsi, Ana Selvaraj, Adalbert Gerald Soosai Raj, and Sorin Lerner. In _Proceedings of the 53rd ACM Technical Symposium on Computer Science Education (SIGCSE ’22)_, Providence, RI, USA, 2022.
-
-
-# Workshop Papers
-
-<h3><a href="/files/unfold.pdf" target="_blank">Unfolding State Changes via Live State-First Debugging</a></h3>
-
-**Ruanqianqian (Lisa) Huang**, Philip J. Guo, and Sorin Lerner. In _the Ninth Workshop of Live Programming (LIVE '23)_, Cascais, Portugal, 2023.
-
-<h3><a href="/files/plateau_23.pdf" target="_blank">How do Haskell programmers debug?</a></h3>
-
-**Ruanqianqian (Lisa) Huang**, Elizaveta Pertseva, Michael Coblenz, and Sorin Lerner. In _the 13th annual workshop on the intersection of HCI and PL (PLATEAU '23)_, Pittsburgh, PA, USA, 2023.
-
-<h3><a href="https://ieeexplore.ieee.org/document/8941197" target="_blank">A Design for Bidirectional Conversion between Blocks and Text for App Inventor</a></h3>
-
-**Ruanqianqian Huang** and Franklyn Turbak. In _2019 IEEE Blocks and Beyond Workshop (B&B)_, Memphis, TN, USA, 2019, pp. 87-89, doi: [10.1109/BB48857.2019.8941197.](10.1109/BB48857.2019.8941197.)
-
-
-
-# Reports and Preprints
-
-<h3><a href="/files/agents_study_25.pdf" target="_blank">Professional Software Developers Don’t Vibe, They Control: AI Agent Use for Coding in 2025</a></h3>
-
-**Ruanqianqian (Lisa) Huang**, Avery Reyna, Sorin Lerner, Haijun Xia, and Brian Hempel. 2025.
-
-
-<h3><a href="/files/z3guide_msr25.pdf" target="_blank">Z3Guide: A Scalable, Student-Centered, and Extensible Educational Environment for Logic Modeling</a></h3>
-
-**Ruanqianqian (Lisa) Huang**, Ayana Monroe, Jonathan "Peli" de Halleux, Sorin Lerner, and Nikolaj Bjørner. Microsoft Research Technical Report MSR-TR-2025-36. 2025.
-
-
-<h3><a href="/files/research_exam_report.pdf" target="_blank">Towards Live Programming for Interactive GUI Applications</a></h3>
-
-**Ruanqianqian (Lisa) Huang**. 2022. Research Exam. UC San Diego.
-
-
-<h3><a href="https://repository.wellesley.edu/object/ir1232" target="_blank">The Design and Implementation of Venbrace, a Text Language for App Inventor</a></h3>
-
-**Ruanqianqian Huang**. 2020. Bachelor's Thesis. Wellesley College.
-
-
-<!-- {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-  {% include base_path %}
-
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
- -->
+<script>
+  (function () {
+    var rail = document.querySelector('.pub-years');
+    if (!rail) return;
+    var links = Array.prototype.slice.call(rail.querySelectorAll('a'));
+    var anchors = links.map(function (a) { return document.getElementById('y' + a.dataset.year); });
+    var OFFSET = 90;
+    function setActive(i) {
+      links.forEach(function (a, idx) { a.classList.toggle('is-active', idx === i); });
+    }
+    function onScroll() {
+      var active = 0;
+      anchors.forEach(function (el, i) {
+        if (el && el.getBoundingClientRect().top - OFFSET <= 0) active = i;
+      });
+      // Near the page bottom the last (short) years can't reach the top — pin the final year.
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+        active = anchors.length - 1;
+      }
+      setActive(active);
+    }
+    var ticking = false;
+    function schedule() {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () { onScroll(); ticking = false; });
+    }
+    links.forEach(function (a, i) {
+      a.addEventListener('click', function () { setActive(i); });
+    });
+    window.addEventListener('scroll', schedule, { passive: true });
+    window.addEventListener('resize', schedule);
+    onScroll();
+  })();
+</script>

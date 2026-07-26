@@ -116,20 +116,24 @@ layout: default
   {% endif %}
 
 
-  <!-- 4. Selected publications -->
-  {% if site.data.selected_publications.size > 0 %}
+  <!-- 4. Selected publications (driven by `selected: true` in _publications) -->
+  {% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
+  {% if selected_pubs.size > 0 %}
   <section class="section">
     <div class="section__head">
       <h2 class="section__title">Selected Publications</h2>
       <a class="section__more" href="{{ base_path }}/publications/">All publications &rarr;</a>
     </div>
     <ul class="pub-list">
-      {% for pub in site.data.selected_publications %}
+      {% for pub in selected_pubs %}
+      {% assign paper_url = "" %}
+      {% for link in pub.links %}{% if link.label == "Paper" %}{% assign paper_url = link.url %}{% endif %}{% endfor %}
+      {% assign s_authors = pub.authors | replace: "Ruanqianqian (Lisa) Huang", "<strong>Ruanqianqian (Lisa) Huang</strong>" | replace: "Ruanqianqian Huang", "<strong>Ruanqianqian Huang</strong>" %}
       <li class="pub">
         <p class="pub__title">
-          {% if pub.url %}<a href="{% if pub.url contains '://' %}{{ pub.url }}{% else %}{{ base_path }}{{ pub.url }}{% endif %}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+          {% if paper_url != "" %}<a href="{% if paper_url contains '://' %}{{ paper_url }}{% else %}{{ base_path }}{{ paper_url }}{% endif %}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
         </p>
-        {% if pub.authors %}<p class="pub__meta pub__authors">{{ pub.authors }}</p>{% endif %}
+        {% if pub.authors %}<p class="pub__meta pub__authors">{{ s_authors }}</p>{% endif %}
         <p class="pub__meta"><span class="pub__venue">{{ pub.venue }}</span>{% if pub.year %}, {{ pub.year }}{% endif %}</p>
       </li>
       {% endfor %}

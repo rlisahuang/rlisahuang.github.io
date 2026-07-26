@@ -1,0 +1,15 @@
+{%- comment -%}
+Renders one publication list item. Expects `include.pub` (a _publications doc).
+Author's own name is auto-bolded (two spellings). Title is plain; links are chips.
+{%- endcomment -%}
+{%- assign authors = include.pub.authors | replace: "Ruanqianqian (Lisa) Huang", "<strong>Ruanqianqian (Lisa) Huang</strong>" | replace: "Ruanqianqian Huang", "<strong>Ruanqianqian Huang</strong>" -%}
+<li class="pub" data-year="{{ include.pub.year }}"{% if include.year_start %} id="y{{ include.pub.year }}"{% endif %}>
+  <p class="pub__title">{{ include.pub.title }}</p>
+  {% if include.pub.authors %}<p class="pub__meta pub__authors">{{ authors }}</p>{% endif %}
+  <p class="pub__meta">{% if include.pub.status %}{{ include.pub.status }} {% endif %}<span class="pub__venue">{{ include.pub.venue }}</span>{% if include.pub.location %}, {{ include.pub.location }}{% endif %}{% if include.pub.year %}, {{ include.pub.year }}{% endif %}{% if include.pub.note %}. {{ include.pub.note }}{% endif %}</p>
+  {% if include.pub.links %}
+  <div class="pub__links">
+    {% for link in include.pub.links %}<a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ base_path }}{{ link.url }}{% endif %}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}
+  </div>
+  {% endif %}
+</li>

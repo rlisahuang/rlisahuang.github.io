@@ -57,7 +57,7 @@
 :root[data-theme="light"] { @include theme-light; }
 :root[data-theme="dark"]  { @include theme-dark; }
 
-html { color-scheme: light dark; }
+html { color-scheme: light dark; scroll-behavior: smooth; }
 :root[data-theme="light"] { color-scheme: light; }
 :root[data-theme="dark"]  { color-scheme: dark; }
 
@@ -344,20 +344,67 @@ blockquote {
 .archive .teaching__inst { font-size: 1.2rem; }
 
 /* ------------------------------------------------------------------ *
- *  Selected publications
+ *  Publications (landing shortlist + full /publications/ page)
  * ------------------------------------------------------------------ */
+/* Year rail + list layout (full /publications/ page) */
+.pub-layout { display: flex; gap: 1.5rem; align-items: flex-start; }
+.pub-main { flex: 1 1 auto; min-width: 0; }
+.pub-years {
+  position: sticky;
+  top: 72px;
+  flex: 0 0 auto;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.pub-years a {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+.pub-years a:hover { color: var(--accent); text-decoration: none; }
+.pub-years a.is-active { color: var(--accent); font-weight: 700; }
+.pub[id] { scroll-margin-top: 72px; }
+
+@media (max-width: 640px) {
+  .pub-layout { flex-direction: column; gap: 0.5rem; }
+  .pub-years {
+    top: 55px;              /* clear the sticky site-nav */
+    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 0.9rem;
+    padding: 0.5rem 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    z-index: 10;
+  }
+}
+
+.pub-note { margin: 0 0 1.25rem; font-size: 0.85rem; color: var(--muted); }
 .pub-list { list-style: none; margin: 0; padding: 0; }
 .pub {
-  padding: 0.85rem 0;
+  padding: 1rem 0;
   border-bottom: 1px solid var(--border);
 }
 .pub:last-child { border-bottom: 0; }
-.pub__title { margin: 0 0 0.2rem; font-size: 1.02rem; font-weight: 600; }
+.pub__title { margin: 0 0 0.25rem; font-size: 1.04rem; font-weight: 600; line-height: 1.4; }
 .pub__title a { color: var(--text); }
 .pub__title a:hover { color: var(--accent); }
-.pub__meta { margin: 0; font-size: 0.9rem; color: var(--muted); }
+.pub__meta { margin: 0.1rem 0 0; font-size: 0.9rem; color: var(--muted); line-height: 1.5; }
 .pub__meta .pub__venue { font-style: italic; }
 .pub__authors { color: var(--text-soft); }
+.pub__authors strong { color: var(--text); font-weight: 650; }
+.pub__links {
+  margin-top: 0.45rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.9rem;
+  font-size: 0.86rem;
+}
+.pub__links a { color: var(--text-soft); }
+.pub__links a:hover { color: var(--accent); }
 
 /* ------------------------------------------------------------------ *
  *  Contact
