@@ -1,0 +1,140 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<main class="home wrap" role="main">
+
+  <!-- 1. Summary: row 1 = photo + brief info -->
+  <section class="intro">
+    {% if site.author.avatar %}
+      <img class="intro__photo"
+           src="{% if site.author.avatar contains '://' %}{{ site.author.avatar }}{% else %}{{ base_path }}/images/{{ site.author.avatar }}{% endif %}"
+           alt="{{ site.author.name | default: site.title }}">
+    {% endif %}
+    <div class="intro__body">
+      <h1 class="intro__name">{{ site.author.name | default: site.title }}</h1>
+      {% if page.role %}<p class="intro__role">{{ page.role }}</p>{% endif %}
+      {% if page.affiliation %}<p class="intro__affil">{{ page.affiliation }}</p>{% endif %}
+
+      <dl class="summary">
+        {% if page.office %}<dt>Office</dt><dd>{{ page.office }}</dd>{% endif %}
+        {% if site.author.email %}
+          {% assign mail = site.author.email | replace: '[at]', '@' | replace: '[dot]', '.' | replace: ' ', '' %}
+          <dt>Email</dt><dd><a href="mailto:{{ mail }}">{{ mail }}</a></dd>
+        {% endif %}
+        {% if page.phone %}<dt>Phone</dt><dd>{{ page.phone }}</dd>{% endif %}
+        {% if page.address %}<dt>Address</dt><dd>{{ page.address }}</dd>{% endif %}
+        {% if site.author.pronouns %}<dt>Pronouns</dt><dd>{{ site.author.pronouns }}</dd>{% endif %}
+      </dl>
+
+      <ul class="summary__links">
+        {% if site.author.googlescholar %}
+          <li><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+        {% endif %}
+        {% if site.author.github %}
+          <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        {% endif %}
+        {% if site.author.twitter %}
+          <li><a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+        {% endif %}
+        <li><a href="{{ base_path }}/files/rh_cv.pdf" target="_blank" rel="noopener"><i class="fas fa-file-alt" aria-hidden="true"></i> CV</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Row 2 = extended about (full width, aligned with photo's left edge) -->
+  <section class="intro__bio">
+    {{ content }}
+  </section>
+
+    <!-- 2. Teaching (Instructor only, grouped by institution — institutions auto-derived, newest first) -->
+  {% assign instructor_courses = site.teaching | where: "type", "Instructor" | sort: "date" | reverse %}
+  {% if instructor_courses.size > 0 %}
+  <section class="section">
+    <div class="section__head">
+      <h2 class="section__title">Teaching</h2>
+      <a class="section__more" href="{{ base_path }}/teaching/">All teaching &rarr;</a>
+    </div>
+    {%- assign inst_order = "|" -%}
+    {%- for c in instructor_courses -%}
+      {%- capture key %}|{{ c.institution }}|{% endcapture -%}
+      {%- unless inst_order contains key %}{% assign inst_order = inst_order | append: c.institution | append: "|" %}{% endunless -%}
+    {%- endfor -%}
+    {%- assign institutions = inst_order | split: "|" -%}
+    {% for inst in institutions %}
+      {% if inst != "" %}
+        {% assign inst_courses = instructor_courses | where: "institution", inst %}
+        {% if inst_courses.size > 0 %}
+          <div class="teaching__group">
+            <h3 class="teaching__inst">{{ inst }}</h3>
+            <ul class="teaching__list">
+              {% for course in inst_courses %}
+                <li class="teaching__item"><span class="teaching__term">{{ course.term }}:</span> {{ course.title }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  <!-- 3. Recent projects (title + links only) -->
+  {% assign featured = site.portfolio | where: "featured", true | sort: "order" %}
+  {% if featured.size > 0 %}
+  <section class="section">
+    <div class="section__head">
+      <h2 class="section__title">Recent Projects</h2>
+      <a class="section__more" href="{{ base_path }}/projects/">All projects &rarr;</a>
+    </div>
+    <div class="projects">
+      {% for project in featured limit: 4 %}
+      <article class="project-card">
+        {% if project.image %}
+          <img class="project-card__media"
+               src="{% if project.image contains '://' %}{{ project.image }}{% else %}{{ base_path }}/images/{{ project.image }}{% endif %}"
+               alt="{{ project.title | escape }}" loading="lazy">
+        {% else %}
+          <div class="project-card__media project-card__media--placeholder">{{ project.title }}</div>
+        {% endif %}
+        <div class="project-card__body">
+          <h3 class="project-card__title">{{ project.title }}</h3>
+          <div class="project-card__links">
+            {% if project.paper %}<a href="{{ project.paper }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+            {% if project.code %}<a href="{{ project.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+            {% if project.demo %}<a href="{{ project.demo }}" target="_blank" rel="noopener">Demo</a>{% endif %}
+            {% if project.talk %}<a href="{{ project.talk }}" target="_blank" rel="noopener">Talk</a>{% endif %}
+            {% if project.web %}<a href="{{ project.web }}" target="_blank" rel="noopener">Website</a>{% endif %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+
+  <!-- 4. Selected publications -->
+  {% if site.data.selected_publications.size > 0 %}
+  <section class="section">
+    <div class="section__head">
+      <h2 class="section__title">Selected Publications</h2>
+      <a class="section__more" href="{{ base_path }}/publications/">All publications &rarr;</a>
+    </div>
+    <ul class="pub-list">
+      {% for pub in site.data.selected_publications %}
+      <li class="pub">
+        <p class="pub__title">
+          {% if pub.url %}<a href="{% if pub.url contains '://' %}{{ pub.url }}{% else %}{{ base_path }}{{ pub.url }}{% endif %}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+        </p>
+        {% if pub.authors %}<p class="pub__meta pub__authors">{{ pub.authors }}</p>{% endif %}
+        <p class="pub__meta"><span class="pub__venue">{{ pub.venue }}</span>{% if pub.year %}, {{ pub.year }}{% endif %}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+</main>

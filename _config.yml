@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ruanqianqian (Lisa) Huang"
+title                    : "Lisa Huang"
 title_separator          : #"-"
-name                     : &name "Ruanqianqian Huang"
-description              : &description "Ph.D. student at UC San Diego"
+name                     : &name "Lisa Huang"
+description              : &description "Assistant Teaching Professor at Cornell"
 url                      : https://rlisahuang.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""
 repository               : "rlisahuang.github.io"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ruanqianqian Huang"
-  avatar           : "profile.jpeg"
+  name             : "Lisa Huang"
+  avatar           : "profile.jpg"
   # bio              : "Building programming tools for tomorrow."
   # location         : "La Jolla, CA"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=qBtrYu8AAAAJ"
-  email            : "r6huang[at]ucsd[dot]edu"
+  email            : "lisahuang[at]cornell[dot]edu"
   pronouns         : "she/her/hers"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,14 +103,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/rlisahuang/
   # orcid            : "https://orcid.org/0000-0002-4242-419X"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "rlisahuang"
+  twitter          : 
   vine             :
   weibo            :
   xing             :

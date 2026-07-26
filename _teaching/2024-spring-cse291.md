@@ -2,6 +2,8 @@
 title: "<a href='https://canvas.ucsd.edu/courses/55581' target='_blank'>CSE 291: LLMs, Programming, and HCI</a>"
 collection: teaching
 type: "Teaching Assistant"
+term: "Spring 2024"
+institution: "UC San Diego"
 permalink: /teaching/2024-spring-cse291
 venue: "Dept. of Computer Science and Engineering, UC San Diego"
 date: 2024-04-01

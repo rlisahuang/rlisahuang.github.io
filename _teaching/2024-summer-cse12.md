@@ -2,6 +2,8 @@
 title: "<a href='https://ucsd-cse12-ss24.github.io' target='_blank'>CSE 12: Basic Data Structures and Object-Oriented Design</a>"
 collection: teaching
 type: "Instructor"
+term: "Summer 2024"
+institution: "UC San Diego"
 permalink: /teaching/2024-summer-cse12
 venue: "Dept. of Computer Science and Engineering, UC San Diego"
 date: 2024-07-01

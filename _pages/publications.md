@@ -13,6 +13,10 @@ author_profile: true
 
 **Ruanqianqian (Lisa) Huang**, Brian Hempel, Yining Cao, James D. Hollan, Haijun Xia, and Sorin Lerner. In _Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’26)_, Barcelona, Spain, 2026.
 
+<h3>Plottery: A Code-Integrated GUI for Matplotlib</h3>
+
+Brian Hempel, **Ruanqianqian (Lisa) Huang**, Devamardeep Hayatpur, Sorin Lerner, and Haijun Xia. To appear in _2026 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)_, Paderborn, Germany, 2026.
+
 <h3><a href="/files/stg_ijcai25.pdf" target="_blank">Synthesizing Composite Hierarchical Structure from Symbolic Music Corpora</a></h3>
 
 Ilana Shapiro, **Ruanqianqian (Lisa) Huang**, Zachary Novack, Cheng-i Wang, Hao-Wen Dong, Taylor Berg-Kirkpatrick, Shlomo Dubnov, and Sorin Lerner. To appear in _Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence (IJCAI '25)_, Montréal, Canada, 2025.

@@ -72,7 +72,11 @@
 
     <!-- project content -->
     <div style="display: flex">
-    {% if post.image %}
+    {% if post.demo %}
+    <div style="width:300px; height:200px; overflow: hidden">
+      <iframe src="{{ post.demo }}" allowfullscreen style="width:300px; height:200px; overflow:hidden;"></iframe>
+    </div>
+    {% elsif post.image %}
     <div style="flex: 30%;">
       <img src=
         {% if post.image contains "://" %}
@@ -84,12 +88,6 @@
     </div>
     {% endif %}
 
-    {% if post.demo %}
-    <div style="width:300px; height:200px; overflow: hidden">
-      <iframe src="{{ post.demo }}" allowfullscreen style="width:300px; height:200px; overflow:hidden;"></iframe>
-    </div>
-    {% endif %}
-    
     <div style="flex: 70%; margin-left: 20px">
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>

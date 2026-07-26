@@ -1,9 +1,14 @@
 ---
 permalink: /
+layout: home
 title: ""
+# ---- Summary block (edit these; email/scholar/github come from _config.yml author:) ----
+role: "Assistant Teaching Professor"
+affiliation: "Department of Information Science, Cornell University"
+office: "286 CIS Building"
+# phone: "+1 607 000 0000"          # optional — uncomment to show
+# address: "Building, Room, Ithaca, NY 14853"   # optional — uncomment to show
 excerpt: "About me"
-author_profile: true
-# news: true
 redirect_from: 
   - /home/
   - /home.html
@@ -12,20 +17,22 @@ redirect_from:
 
 
 
-My name is Lisa. I am a final-year PhD Candidate studying Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/) advised by [Sorin Lerner](http://cseweb.ucsd.edu/~lerner/). 
-I have spent summers at [Apple](https://machinelearning.apple.com) and [Microsoft Research](https://www.microsoft.com/en-us/research/group/research-software-engineering-rise/) researching AI, HCI, programming systems, and education, building a [product](https://microsoft.github.io/z3guide/) along the way.
+
+
+I am an Assistant Teaching Professor in the [Department of Information Science](https://infosci.cornell.edu) at Cornell University. My teaching and research focus on **human-AI interaction in programming systems**, with a particular interest in **building programming support for non-programmers**. I am also interested in understanding how programmers of all kinds reason about code and debugging, and how we can design programming systems to better support their needs.
+
+I completed my MS and PhD in Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/), and a BA in Computer Science and Cognitive & Linguistic Sciences at Wellesley College.
+
+<!-- I have spent summers at [Apple](https://machinelearning.apple.com) and [Microsoft Research](https://www.microsoft.com/en-us/research/group/research-software-engineering-rise/) researching AI, HCI, programming systems, and education, building a [product](https://microsoft.github.io/z3guide/) along the way.
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
-where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) and [Takis Metaxas](https://www.wellesley.edu/people/panagiotis-metaxas).
+where I worked extensively with [Franklyn Turbak](https://cs.wellesley.edu/~fturbak/) and [Takis Metaxas](https://www.wellesley.edu/people/panagiotis-metaxas). -->
 
-I study programmers of all kinds and build programming systems for them. 
-<!-- How do we incorporate more human factors into designing programming systems? How can programming interfaces better support creativity and communication of thoughts? How do we build more _active_ programming assistants that always align with the user's workflow?  -->
-**In the age of AI-assisted programming**, how do we design appropriate programming support with human factors in mind?
+<!-- **In the age of AI-assisted programming**, how do we design appropriate programming support with human factors in mind?
 How should programming interfaces adapt to updates in programming workflows while accounting for domain-specific user needs?
-<!-- Read more about my [Research](/research/) vision and recent [Projects](/projects/) and [Publications](/publications/) along these lines. -->
 Read more about my [Publications](/publications/) along these lines.
-<!-- , or check out demos in [Projects](/projects/). -->
+, or check out demos in [Projects](/projects/). --> 
 
-Besides research, I am passionate about [Teaching](/teaching/) Computer Science, from introductory programming to upper-level research seminars. I received the **Doctoral Excellence in Teaching Award** from the UCSD CSE department in 2024.
+<!-- Besides research, I am passionate about [Teaching](/teaching/) Computer Science, from introductory programming to upper-level research seminars. I received the **Doctoral Excellence in Teaching Award** from the UCSD CSE department in 2024. -->
 
 Outside of my day job as a computer scientist, I am an amateur figure skater, pianist, and flutist.
 

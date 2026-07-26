@@ -2,11 +2,48 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign all_sorted = site.teaching | sort: "date" | reverse %}
+
+{%- comment -%} Institutions in order of most-recent activity (auto-derived) {%- endcomment -%}
+{%- assign inst_order = "|" -%}
+{%- for c in all_sorted -%}
+  {%- capture key %}|{{ c.institution }}|{% endcapture -%}
+  {%- unless inst_order contains key %}{% assign inst_order = inst_order | append: c.institution | append: "|" %}{% endunless -%}
+{%- endfor -%}
+{%- assign institutions = inst_order | split: "|" -%}
+
+{%- comment -%} Roles: preferred order first, then any new roles appended (auto-derived) {%- endcomment -%}
+{%- assign role_order = "|Instructor|Teaching Assistant|Tutor|" -%}
+{%- for c in all_sorted -%}
+  {%- capture rkey %}|{{ c.type }}|{% endcapture -%}
+  {%- unless role_order contains rkey %}{% assign role_order = role_order | append: c.type | append: "|" %}{% endunless -%}
+{%- endfor -%}
+{%- assign roles = role_order | split: "|" -%}
+
+{% for inst in institutions %}
+  {% if inst != "" %}
+    {% assign inst_courses = all_sorted | where: "institution", inst %}
+    {% if inst_courses.size > 0 %}
+      <div class="teaching__group">
+        <h2 class="teaching__inst">{{ inst }}</h2>
+        {% for role in roles %}
+          {% if role != "" %}
+            {% assign role_courses = inst_courses | where: "type", role %}
+            {% if role_courses.size > 0 %}
+              <h3 class="teaching__role">{{ role }}</h3>
+              <ul class="teaching__list">
+                {% for course in role_courses %}
+                  <li class="teaching__item"><span class="teaching__term">{{ course.term }}:</span> {{ course.title }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endif %}
 {% endfor %}

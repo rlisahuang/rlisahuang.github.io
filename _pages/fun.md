@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Fun Facts"
+title: "Misc"
 permalink: /fun/
 author_profile: true
 redirect_from:
