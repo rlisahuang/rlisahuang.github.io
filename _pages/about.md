@@ -21,7 +21,9 @@ redirect_from:
 
 I am an Assistant Teaching Professor in the [Department of Information Science](https://infosci.cornell.edu) at Cornell University. My teaching and research focus on **human-AI interaction in programming systems**, with a particular interest in **building programming support for non-programmers**. I am also interested in understanding how programmers of all kinds reason about code and debugging, and how we can design programming systems to better support their needs.
 
-I completed my MS and PhD in Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/), and a BA in Computer Science and Cognitive & Linguistic Sciences at Wellesley College.
+I completed my MS and PhD in Computer Science at UC San Diego in the [Programming Systems Group](http://cseweb.ucsd.edu/groups/progsys/). 
+My PhD dissertation was _Human-Centered Design for Live and Responsive Programming Systems_.
+Before then, I received a BA in Computer Science and Cognitive & Linguistic Sciences at Wellesley College.
 
 <!-- I have spent summers at [Apple](https://machinelearning.apple.com) and [Microsoft Research](https://www.microsoft.com/en-us/research/group/research-software-engineering-rise/) researching AI, HCI, programming systems, and education, building a [product](https://microsoft.github.io/z3guide/) along the way.
 Before coming to UCSD, I obtained my B.A. in Computer Science and Cognitive & Linguistic Sciences from [Wellesley College](https://www.wellesley.edu) near Boston, MA, 
@@ -34,7 +36,8 @@ Read more about my [Publications](/publications/) along these lines.
 
 <!-- Besides research, I am passionate about [Teaching](/teaching/) Computer Science, from introductory programming to upper-level research seminars. I received the **Doctoral Excellence in Teaching Award** from the UCSD CSE department in 2024. -->
 
-Outside of my day job as a computer scientist, I am an amateur figure skater, pianist, and flutist.
+Outside of my day job as a computer scientist, I am an amateur figure skater, pianist, and flutist. 
+[Random facts about me](/fun/)
 
 
 <!-- 

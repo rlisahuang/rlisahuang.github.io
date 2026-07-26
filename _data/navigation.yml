@@ -9,6 +9,5 @@ main:
   - title: "Publications"
     url: /publications/
 
-  # Hidden for now — the page still builds and is reachable at /fun/.
-  # - title: "Misc"
-  #   url: /fun/
+  - title: "Misc"
+    url: /fun/
