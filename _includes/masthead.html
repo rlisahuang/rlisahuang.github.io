@@ -3,24 +3,22 @@
 <nav class="site-nav" role="navigation">
   <div class="site-nav__inner">
     <!-- <a class="site-nav__brand" href="{{ base_path }}/">Home</a> -->
-    <div class="site-nav__right">
-      <ul class="site-nav__links">
-        <li><a href="{{ base_path }}/"{% if page.url == '/' %} class="is-active" aria-current="page"{% endif %}>About</a></li>
-        {% for link in site.data.navigation.main %}
-          {% if link.url contains 'http' %}
-            {% assign domain = '' %}
-          {% else %}
-            {% assign domain = base_path %}
-          {% endif %}
-          {% if page.url != '/' and page.url contains link.url %}{% assign is_active = true %}{% else %}{% assign is_active = false %}{% endif %}
-          <li><a href="{{ domain }}{{ link.url }}"{% if is_active %} class="is-active" aria-current="page"{% endif %}>{{ link.title }}</a></li>
-        {% endfor %}
-      </ul>
-      <button class="theme-toggle" id="theme-toggle" type="button"
-              aria-label="Toggle light and dark mode" title="Toggle light/dark">
-        <i class="fas fa-moon" aria-hidden="true"></i>
-      </button>
-    </div>
+    <ul class="site-nav__links">
+      <li><a href="{{ base_path }}/"{% if page.url == '/' %} class="is-active" aria-current="page"{% endif %}>About</a></li>
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+        {% else %}
+          {% assign domain = base_path %}
+        {% endif %}
+        {% if page.url != '/' and page.url contains link.url %}{% assign is_active = true %}{% else %}{% assign is_active = false %}{% endif %}
+        <li><a href="{{ domain }}{{ link.url }}"{% if is_active %} class="is-active" aria-current="page"{% endif %}>{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+    <button class="theme-toggle" id="theme-toggle" type="button"
+            aria-label="Toggle light and dark mode" title="Toggle light/dark">
+      <i class="fas fa-moon" aria-hidden="true"></i>
+    </button>
   </div>
 </nav>
 

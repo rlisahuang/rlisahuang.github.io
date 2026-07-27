@@ -57,13 +57,13 @@ permalink: /projects/
   (function () {
     var cards = Array.prototype.slice.call(document.querySelectorAll('.projects .project-card'));
 
-    // "more / less" description toggle (skips cards hidden by the filter)
+    /* "more / less" description toggle (skips cards hidden by the filter) */
     cards.forEach(function (card) {
       var desc = card.querySelector('.project-card__desc');
       var btn = card.querySelector('.project-card__more');
       if (!desc || !btn) return;
       function refresh() {
-        if (desc.offsetParent === null) return;           // card hidden — leave as is
+        if (desc.offsetParent === null) return;           /* card hidden — leave as is */
         if (desc.classList.contains('is-expanded')) return;
         btn.hidden = desc.scrollHeight - desc.clientHeight <= 2;
       }
@@ -77,7 +77,7 @@ permalink: /projects/
       refresh();
     });
 
-    // Category filter
+    /* Category filter */
     var filter = document.querySelector('.proj-filter');
     if (filter) {
       var buttons = Array.prototype.slice.call(filter.querySelectorAll('button'));

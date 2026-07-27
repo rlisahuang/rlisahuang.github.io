@@ -136,10 +136,8 @@ blockquote {
   margin: 0 auto;
   padding: 0.85rem 1.25rem;
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 0.5rem 1rem;
+  align-items: center;
+  gap: 0.75rem 1rem;
 }
 .site-nav__brand {
   font-weight: 650;
@@ -147,21 +145,15 @@ blockquote {
   font-size: 1.02rem;
 }
 .site-nav__brand:hover { text-decoration: none; color: var(--accent); }
-.site-nav__right {
-  flex: 1 1 auto;            /* fill the bar so the toggle can sit at the far right */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 0.75rem 1.1rem;
-}
 .site-nav__links {
+  flex: 1 1 auto;           /* take the row so the toggle stays pinned right */
+  min-width: 0;
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.1rem;
+  gap: 0.6rem 1.1rem;
 }
 .site-nav__links a {
   color: var(--text-soft);
@@ -171,6 +163,7 @@ blockquote {
 .site-nav__links a.is-active { color: var(--accent); font-weight: 700; }
 
 .theme-toggle {
+  flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -192,7 +185,8 @@ blockquote {
 /* ------------------------------------------------------------------ *
  *  Home / one-page sections
  * ------------------------------------------------------------------ */
-.home { padding: 2.75rem 0 1rem; }
+/* Only vertical padding — keep .wrap's horizontal padding (same element). */
+.home { padding-top: 2.75rem; padding-bottom: 1rem; }
 
 .section { margin: 2.75rem 0; }
 .section__head {

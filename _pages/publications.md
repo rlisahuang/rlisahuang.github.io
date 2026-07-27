@@ -49,7 +49,7 @@ permalink: /publications/
       anchors.forEach(function (el, i) {
         if (el && el.getBoundingClientRect().top - OFFSET <= 0) active = i;
       });
-      // Near the page bottom the last (short) years can't reach the top — pin the final year.
+      /* Near the page bottom the last (short) years can't reach the top — pin the final year. */
       if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
         active = anchors.length - 1;
       }
