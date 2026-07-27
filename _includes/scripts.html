@@ -1,4 +1,8 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
-
+{% comment %}
+  main.min.js (the legacy Minimal Mistakes bundle) was removed: the redesign uses
+  CSS position:sticky + scroll-behavior:smooth and its own inline scripts, so the
+  bundle only added an unused jQuery/greedy-nav/magnific stack that threw a
+  RangeError on archive pages. Nothing here depends on it.
+{% endcomment %}
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
